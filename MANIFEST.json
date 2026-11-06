@@ -1,10 +1,5 @@
 [
   {
-    "path": "docs/GITHUB_UPLOAD_CN.md",
-    "bytes": 2458,
-    "sha256": "feabfd4b0bbdb48ab45867328e4fd86ae34fb4992741ae2486b3ea5e5d1cd681"
-  },
-  {
     "path": "figures/communication_ledgers.pdf",
     "bytes": 47535,
     "sha256": "5e750185582ac078a1635d081972936475fee717203873dcb327d6e5335a8421"
@@ -76,8 +71,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3246,
-    "sha256": "6f66d3947cd236380187c2df592714fb55ce7ce013e8d978d2016d7d20490945"
+    "bytes": 2254,
+    "sha256": "cc5dfd3bd9451a6ef8889e1c9c0bdf585630fe55a221beb158993753a0b6985a"
   },
   {
     "path": "reproducibility/all_method_costs.csv",
@@ -95,11 +90,6 @@
     "sha256": "b020d95cbf7ac6a8e6a66472158e0c85508f466f51787505f17d88c5bf8e00f5"
   },
   {
-    "path": "reproducibility/certificate_dependency_audit.json",
-    "bytes": 130330,
-    "sha256": "c2f6d0f4b14343fbcc9aa12264bb2451fa7d3f74f7b98cf2aae88d3189858ed0"
-  },
-  {
     "path": "reproducibility/certificate_inputs.json",
     "bytes": 17642,
     "sha256": "49e7c5fce91adb9312ddaceb55cccf1acf0fdf4ed3a8b89f2d3a77a2eeba6029"
@@ -115,14 +105,9 @@
     "sha256": "b3d3fb7a2b3e3ad67993326c7a58089e3d7ec24ce8a57e00658b2c3373f9b665"
   },
   {
-    "path": "reproducibility/metric_replay_audit.json",
-    "bytes": 48720,
-    "sha256": "9edb76ff56700f92410528f34875b1a7a65fb7f4cef6d7daa239bea897fe74b7"
-  },
-  {
     "path": "reproducibility/PACKAGE_SCOPE.json",
-    "bytes": 520,
-    "sha256": "23d4c71b4cc2d2fb573f03acd550ad9b1f2abc4b54f33ad93ccfa85b14697672"
+    "bytes": 447,
+    "sha256": "aecf24e293b45e57d9d0b798f6796cedc021db8355fe47e55c8c33d11d4bac58"
   },
   {
     "path": "reproducibility/timing_evidence.json",
