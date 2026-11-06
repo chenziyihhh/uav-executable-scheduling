@@ -1,0 +1,413 @@
+{
+  "fixed_block": {
+    "status": "AUDITED",
+    "rows": [
+      {
+        "selective_wait_audit": {
+          "permits_checked": 8334,
+          "events": 16554,
+          "prepared_protected_events": 139,
+          "enhanced_events": 0,
+          "all_event_short_sleeps": 9135,
+          "margin_and_causal_install_checks": true,
+          "no_early_permit_check": true,
+          "note": "Queued certified slots are not necessarily activated obligations; actual obligations are audited separately. No counterfactual CPU savings inferred from nominal sleep time."
+        },
+        "id": "process_0",
+        "selective_wait_arm": "baseline",
+        "host_pre_busy_percent": 10.828440965427266,
+        "protected_timely": 139,
+        "protected_obligations": 139,
+        "protected_missed": 0,
+        "expiry_stages": {},
+        "complete_deliveries": 272,
+        "task_loss": [
+          0.0,
+          0.006666666666666667
+        ],
+        "task_feasible": true,
+        "controls": {
+          "grant:timely": 140,
+          "ack:timely": 100,
+          "regack:timely": 2
+        },
+        "release_timely": 69,
+        "release_expected": 70,
+        "resource_gate": true,
+        "safety_gate": true,
+        "full_gate": false,
+        "environment_interruption_flag": false,
+        "max_monitor_gap_s": 0.5161449,
+        "protocol_plus_monitor_cpu_ms": 15843.75,
+        "coordinator_row_cpu_ms": 11515.625,
+        "endpoint_cpu_ms": 6250.0,
+        "monitor_cpu_ms": 703.125,
+        "expanded_total_cpu_ms": 18468.75,
+        "added_accounted_cpu_ms": 2625.0,
+        "row_wall_ms": 40004.5698,
+        "execute_wall_ms": 37052.9783,
+        "contract_bytes": 26012,
+        "outer_udp_bytes": 61344,
+        "local_control_udp_bytes": 92988,
+        "local_pipe_serialized_bytes": 2255420,
+        "trace_disk_bytes": 1401370
+      },
+      {
+        "selective_wait_audit": {
+          "permits_checked": 8334,
+          "events": 16554,
+          "prepared_protected_events": 140,
+          "enhanced_events": 140,
+          "all_event_short_sleeps": 9058,
+          "margin_and_causal_install_checks": true,
+          "no_early_permit_check": true,
+          "note": "Queued certified slots are not necessarily activated obligations; actual obligations are audited separately. No counterfactual CPU savings inferred from nominal sleep time."
+        },
+        "id": "process_1",
+        "selective_wait_arm": "selective",
+        "host_pre_busy_percent": 5.146579804560258,
+        "protected_timely": 138,
+        "protected_obligations": 140,
+        "protected_missed": 2,
+        "expiry_stages": {
+          "udp_to_userspace_receive": 1,
+          "source_dispatch": 1
+        },
+        "complete_deliveries": 272,
+        "task_loss": [
+          0.0,
+          0.006666666666666667
+        ],
+        "task_feasible": true,
+        "controls": {
+          "grant:timely": 140,
+          "ack:timely": 100,
+          "regack:timely": 2
+        },
+        "release_timely": 70,
+        "release_expected": 70,
+        "resource_gate": true,
+        "safety_gate": true,
+        "full_gate": false,
+        "environment_interruption_flag": false,
+        "max_monitor_gap_s": 0.5161575,
+        "protocol_plus_monitor_cpu_ms": 15968.75,
+        "coordinator_row_cpu_ms": 11562.5,
+        "endpoint_cpu_ms": 6265.625,
+        "monitor_cpu_ms": 750.0,
+        "expanded_total_cpu_ms": 18578.125,
+        "added_accounted_cpu_ms": 2609.375,
+        "row_wall_ms": 40045.6173,
+        "execute_wall_ms": 37056.1739,
+        "contract_bytes": 26012,
+        "outer_udp_bytes": 61344,
+        "local_control_udp_bytes": 92628,
+        "local_pipe_serialized_bytes": 2250521,
+        "trace_disk_bytes": 1403592
+      },
+      {
+        "selective_wait_audit": {
+          "permits_checked": 8334,
+          "events": 16554,
+          "prepared_protected_events": 139,
+          "enhanced_events": 139,
+          "all_event_short_sleeps": 9021,
+          "margin_and_causal_install_checks": true,
+          "no_early_permit_check": true,
+          "note": "Queued certified slots are not necessarily activated obligations; actual obligations are audited separately. No counterfactual CPU savings inferred from nominal sleep time."
+        },
+        "id": "process_2",
+        "selective_wait_arm": "selective",
+        "host_pre_busy_percent": 7.8125,
+        "protected_timely": 139,
+        "protected_obligations": 139,
+        "protected_missed": 0,
+        "expiry_stages": {},
+        "complete_deliveries": 269,
+        "task_loss": [
+          0.0,
+          0.006666666666666667
+        ],
+        "task_feasible": true,
+        "controls": {
+          "grant:timely": 140,
+          "ack:timely": 98,
+          "ack:rejected_or_expired": 2,
+          "regack:timely": 2
+        },
+        "release_timely": 69,
+        "release_expected": 70,
+        "resource_gate": true,
+        "safety_gate": true,
+        "full_gate": false,
+        "environment_interruption_flag": false,
+        "max_monitor_gap_s": 0.5155833,
+        "protocol_plus_monitor_cpu_ms": 15296.875,
+        "coordinator_row_cpu_ms": 11093.75,
+        "endpoint_cpu_ms": 6046.875,
+        "monitor_cpu_ms": 703.125,
+        "expanded_total_cpu_ms": 17843.75,
+        "added_accounted_cpu_ms": 2546.875,
+        "row_wall_ms": 39943.2743,
+        "execute_wall_ms": 36976.0289,
+        "contract_bytes": 26067,
+        "outer_udp_bytes": 61437,
+        "local_control_udp_bytes": 93204,
+        "local_pipe_serialized_bytes": 2252419,
+        "trace_disk_bytes": 1401953
+      },
+      {
+        "selective_wait_audit": {
+          "permits_checked": 8334,
+          "events": 16553,
+          "prepared_protected_events": 140,
+          "enhanced_events": 0,
+          "all_event_short_sleeps": 9152,
+          "margin_and_causal_install_checks": true,
+          "no_early_permit_check": true,
+          "note": "Queued certified slots are not necessarily activated obligations; actual obligations are audited separately. No counterfactual CPU savings inferred from nominal sleep time."
+        },
+        "id": "process_3",
+        "selective_wait_arm": "baseline",
+        "host_pre_busy_percent": 3.387622149837133,
+        "protected_timely": 140,
+        "protected_obligations": 140,
+        "protected_missed": 0,
+        "expiry_stages": {},
+        "complete_deliveries": 268,
+        "task_loss": [
+          0.0,
+          0.006666666666666667
+        ],
+        "task_feasible": true,
+        "controls": {
+          "grant:timely": 140,
+          "ack:timely": 100,
+          "regack:timely": 2
+        },
+        "release_timely": 70,
+        "release_expected": 70,
+        "resource_gate": true,
+        "safety_gate": true,
+        "full_gate": true,
+        "environment_interruption_flag": false,
+        "max_monitor_gap_s": 0.5154786,
+        "protocol_plus_monitor_cpu_ms": 15687.5,
+        "coordinator_row_cpu_ms": 11625.0,
+        "endpoint_cpu_ms": 5984.375,
+        "monitor_cpu_ms": 656.25,
+        "expanded_total_cpu_ms": 18265.625,
+        "added_accounted_cpu_ms": 2578.125,
+        "row_wall_ms": 39983.7513,
+        "execute_wall_ms": 37040.8831,
+        "contract_bytes": 26012,
+        "outer_udp_bytes": 61344,
+        "local_control_udp_bytes": 93096,
+        "local_pipe_serialized_bytes": 2258154,
+        "trace_disk_bytes": 1399097
+      }
+    ],
+    "groups": {
+      "baseline": {
+        "runs": 2,
+        "timely": 279,
+        "obligations": 279,
+        "missed": 0,
+        "full_passes": 1,
+        "mean_expanded_cpu_ms": 18367.1875,
+        "expanded_cpu_range_ms": [
+          18265.625,
+          18468.75
+        ],
+        "mean_protocol_monitor_cpu_ms": 15765.625,
+        "mean_row_wall_ms": 39994.16055,
+        "mean_outer_udp_bytes": 61344,
+        "mean_local_pipe_bytes": 2256787,
+        "mean_complete_deliveries": 270
+      },
+      "selective": {
+        "runs": 2,
+        "timely": 277,
+        "obligations": 279,
+        "missed": 2,
+        "full_passes": 0,
+        "mean_expanded_cpu_ms": 18210.9375,
+        "expanded_cpu_range_ms": [
+          17843.75,
+          18578.125
+        ],
+        "mean_protocol_monitor_cpu_ms": 15632.8125,
+        "mean_row_wall_ms": 39994.4458,
+        "mean_outer_udp_bytes": 61390.5,
+        "mean_local_pipe_bytes": 2251470,
+        "mean_complete_deliveries": 270.5
+      }
+    },
+    "failures": [],
+    "block_complete_in_original_host_admission": true,
+    "candidate_passes_this_block": false,
+    "candidate_promoted": false,
+    "independent_confirmation_started": false,
+    "block_cost": {
+      "coordinator_process_cpu_ms": 47468.75,
+      "wall_from_script_entry_ms": 162422.7316,
+      "coordinator_shared_cpu_ms": 1671.875,
+      "checkpoint": "Before final accounting-output write; no subsequent offline analysis counted"
+    },
+    "interpretation": "Two predeclared attempts per arm; groups contain only admitted runs and rejected attempts remain in failures. Compare task,delivery,obligation counts and costs together; changing obligation counts precludes interpreting raw miss-count differences as identical-opportunity effects. No WCET,causal OS isolation,statistical superiority or full external-baseline claim.",
+    "cost_boundary": "Expanded row CPU includes coordinator from host check through monitor join, reported endpoint cold CPU and monitor cold CPU. Shared block CPU is separate and not charged twice. Historical offline evidence/certificate generation,later analysis,energy/GPU and deployment interference externalities are unmeasured.",
+    "adoption": "Requires nonempty complete timing/quality execution and a declared compute/operating budget. Any observed expiry rejects a strict executable-contract deployment claim under the tested condition. An all-pass small block is only a feasibility result, not promotion or independent confirmation.",
+    "block_total_measured_cpu_ms": 74828.125,
+    "descriptive_selective_vs_baseline": {
+      "mean_expanded_cpu_percent": -0.8507018290089374,
+      "full_passes": [
+        1,
+        0
+      ],
+      "missed": [
+        0,
+        2
+      ],
+      "mean_complete_deliveries": [
+        270,
+        270.5
+      ]
+    }
+  },
+  "kernel_capture": {
+    "status": "VALIDATED_COMPLETE_CAPTURE_AND_PROTOCOL",
+    "total_kernel_events": 2065122,
+    "events_lost": 0,
+    "buffers_lost": 0,
+    "matched_charge_commands": 242,
+    "protected_timely": 140,
+    "protected_obligations": 140,
+    "controls": {
+      "grant:timely": 140,
+      "ack:timely": 100,
+      "regack:timely": 2
+    },
+    "release_timely": 70,
+    "release_expected": 70,
+    "model_quality": {
+      "checks": 327,
+      "passed": 327,
+      "violations": [],
+      "max_age": 0.6928271999999998
+    },
+    "full_gate_this_run": true,
+    "longest_ack_charge_ms": 0.6169,
+    "protected_waits_joined": 280,
+    "longest_protected_ready_queue": {
+      "slot": 11039,
+      "role": "1",
+      "outcome": "timely",
+      "entry_ms": 10837.5139,
+      "return_ms": 11037.6014,
+      "cause": "timer",
+      "kernel": {
+        "intervals": [
+          {
+            "ready_ns": 17516619089800,
+            "running_ns": 17516619598500,
+            "ready_to_running_ns": 508700,
+            "ready_source": "ReadyThread",
+            "blocked_start_ns": 17516419555400,
+            "blocked_until_ready_ns": 199534400,
+            "ready_ms": 11037.0724,
+            "running_ms": 11037.5811,
+            "ready_to_running_ms": 0.5087,
+            "overlap_ready_queue_ms": 0.5087
+          }
+        ],
+        "unmatched": []
+      },
+      "requested_due_ms": [
+        11037.0188,
+        11037.0298
+      ],
+      "last_ready_ms": 11037.0724,
+      "last_running_ms": 11037.5811,
+      "last_ready_queue_ms": 0.5087,
+      "ready_minus_requested_due_ms": [
+        0.04259999999885622,
+        0.053599999999278225
+      ]
+    },
+    "boundary_unmatched": {
+      "coordinator": 5,
+      "-1": 4,
+      "0": 3,
+      "1": 0
+    },
+    "explanation": "All protected wait brackets have no unmatched kernel transitions. Global lifetime-boundary unmatched transitions remain preserved. This successful instrumented baseline did not reproduce previous55ms ACK stall or protected deadline failures; no new behavior change is selected or promoted.",
+    "timing_reproducibility_gate": false,
+    "physical_quality_gate": false,
+    "joint_review_passed": false,
+    "costs": {
+      "expanded_total_cpu_ms": 18406.25,
+      "row_wall_ms": 40213.5876,
+      "coordinator_row_cpu_ms": 11593.75,
+      "endpoint_cpu_ms": 6140.625,
+      "monitor_cpu_ms": 671.875,
+      "contract_bytes": 26122,
+      "outer_udp_bytes": 61530,
+      "local_pipe_bytes": 2291614,
+      "local_wakeup_bytes": 93384,
+      "shared_storage_bytes": 417321,
+      "shared_update_bytes": 2240,
+      "trace_disk_bytes": 1420564
+    },
+    "cost_boundary": "Protocol/endpoint/monitor and row startup costs only; WPR,tracerpt,postprocessing and historical offline certificate work are not included. No cross-run cost advantage claim.",
+    "next_order": [
+      "Keep the baseline and complete same-flight causal-quality prerequisites; do not infer a tuning change from non-failing waits.",
+      "Any next timing intervention must address an identified deadline-relevant failure with the same original window/host condition and measured costs.",
+      "Common final comparators and unused-service confirmation remain gated by timing reproducibility and nonempty physical-quality admission."
+    ]
+  },
+  "fixed_block_configuration": {
+    "utc": "2026-10-25T10:05:46.726128+00:00",
+    "specs": [
+      "process",
+      "process",
+      "process",
+      "process"
+    ],
+    "runtime": "deadline_selective_wait",
+    "case": {
+      "record": "TMobile-LTE-short",
+      "offset_ms": 0,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "end": 32000,
+    "window_ms": 1,
+    "spin_ms": 0.8,
+    "placement": {
+      "coordinator": 2,
+      "-1": 4,
+      "0": 6,
+      "1": 8
+    },
+    "monitor_process_cpu": 10,
+    "monitor_period_s": 0.5,
+    "admission": "2s aggregate host busy <=20%, no retry; external applications unchanged.",
+    "protected_wake_margin_ms": null,
+    "scope": "One fixed baseline/selective/selective/baseline block; only coordinator spin margin at already queued certified data slots changes0.8ms to1.0ms. Other events0.8ms. Same metadata and wait tracing in both arms. Original1ms window,task thresholds,host2s<=20%,no retries; high coordinatorCPU2,above-normal endpoints4/6/8,monitor10. No early permits or control/payment/guard/expiry change. No independent confirmation.",
+    "invariants": "Paid registration recovery, same-time control priority, original task/service/window preserved. Not independent confirmation.",
+    "cost": "Per-row coordinator from before host check through monitor join,input load,setup,protocol,serialization,immediate audits; endpoint and monitor cold CPU added. Shared/import/freeze block overhead separate. Historical offline certificate/trace generation,later analysis,energy and external interference costs excluded and disclosed.",
+    "selective_wait_plan": [
+      "baseline",
+      "selective",
+      "selective",
+      "baseline"
+    ],
+    "coordinator_priority": 128,
+    "endpoint_priority": 32768,
+    "kernel_capture": false
+  }
+}

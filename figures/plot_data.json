@@ -1,0 +1,4122 @@
+{
+  "pairs": [
+    {
+      "case_index": 0,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 384,
+      "saved_outer_bytes": 413,
+      "extra_deliveries": -1,
+      "extra_cpu_ms": -171.875,
+      "extra_cpu_rounds_ms": [
+        -171.875,
+        62.5,
+        -406.25
+      ],
+      "extra_cold_cpu_ms": 0.0
+    },
+    {
+      "case_index": 0,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -187.5,
+      "extra_cpu_rounds_ms": [
+        -500.0,
+        -78.125,
+        -187.5
+      ],
+      "extra_cold_cpu_ms": -15.625
+    },
+    {
+      "case_index": 0,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -1579,
+      "saved_outer_bytes": -6938,
+      "extra_deliveries": 20,
+      "extra_cpu_ms": 46.875,
+      "extra_cpu_rounds_ms": [
+        -46.875,
+        125.0,
+        46.875
+      ],
+      "extra_cold_cpu_ms": 406.25
+    },
+    {
+      "case_index": 0,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 294,
+      "saved_outer_bytes": 1368,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -4359.375,
+      "extra_cpu_rounds_ms": [
+        -4359.375,
+        -4687.5,
+        -3890.625
+      ],
+      "extra_cold_cpu_ms": -3625.0
+    },
+    {
+      "case_index": 0,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 294,
+      "saved_outer_bytes": 1368,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -3906.25,
+      "extra_cpu_rounds_ms": [
+        -4296.875,
+        -3906.25,
+        -3796.875
+      ],
+      "extra_cold_cpu_ms": -3937.5
+    },
+    {
+      "case_index": 0,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 966,
+      "saved_outer_bytes": -6192,
+      "extra_deliveries": -13,
+      "extra_cpu_ms": -7031.25,
+      "extra_cpu_rounds_ms": [
+        -7234.375,
+        -6875.0,
+        -7031.25
+      ],
+      "extra_cold_cpu_ms": -6843.75
+    },
+    {
+      "case_index": 0,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 108,
+      "saved_outer_bytes": -170,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -515.625,
+      "extra_cpu_rounds_ms": [
+        -515.625,
+        -515.625,
+        -578.125
+      ],
+      "extra_cold_cpu_ms": -671.875
+    },
+    {
+      "case_index": 0,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 108,
+      "saved_outer_bytes": -170,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -562.5,
+      "extra_cpu_rounds_ms": [
+        -765.625,
+        -406.25,
+        -562.5
+      ],
+      "extra_cold_cpu_ms": -421.875
+    },
+    {
+      "case_index": 0,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 2960,
+      "saved_outer_bytes": -6355,
+      "extra_deliveries": -51,
+      "extra_cpu_ms": -4796.875,
+      "extra_cpu_rounds_ms": [
+        -5859.375,
+        -4796.875,
+        -4796.875
+      ],
+      "extra_cold_cpu_ms": -5000.0
+    },
+    {
+      "case_index": 1,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 208,
+      "saved_outer_bytes": -439,
+      "extra_deliveries": -3,
+      "extra_cpu_ms": -203.125,
+      "extra_cpu_rounds_ms": [
+        -156.25,
+        -281.25,
+        -203.125
+      ],
+      "extra_cold_cpu_ms": -562.5
+    },
+    {
+      "case_index": 1,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -187.5,
+      "extra_cpu_rounds_ms": [
+        -187.5,
+        -125.0,
+        -500.0
+      ],
+      "extra_cold_cpu_ms": -375.0
+    },
+    {
+      "case_index": 1,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -2151,
+      "saved_outer_bytes": -7287,
+      "extra_deliveries": 9,
+      "extra_cpu_ms": -62.5,
+      "extra_cpu_rounds_ms": [
+        -62.5,
+        0.0,
+        -453.125
+      ],
+      "extra_cold_cpu_ms": -437.5
+    },
+    {
+      "case_index": 1,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -34,
+      "saved_outer_bytes": 363,
+      "extra_deliveries": 4,
+      "extra_cpu_ms": -43125.0,
+      "extra_cpu_rounds_ms": [
+        -45421.875,
+        -42281.25,
+        -43125.0
+      ],
+      "extra_cold_cpu_ms": -43671.875
+    },
+    {
+      "case_index": 1,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -34,
+      "saved_outer_bytes": 363,
+      "extra_deliveries": 4,
+      "extra_cpu_ms": -40296.875,
+      "extra_cpu_rounds_ms": [
+        -40296.875,
+        -40218.75,
+        -40984.375
+      ],
+      "extra_cold_cpu_ms": -40250.0
+    },
+    {
+      "case_index": 1,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 966,
+      "saved_outer_bytes": -4105,
+      "extra_deliveries": -12,
+      "extra_cpu_ms": -57593.75,
+      "extra_cpu_rounds_ms": [
+        -57593.75,
+        -54437.5,
+        -59546.875
+      ],
+      "extra_cold_cpu_ms": -57078.125
+    },
+    {
+      "case_index": 1,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -10,
+      "saved_outer_bytes": -435,
+      "extra_deliveries": 3,
+      "extra_cpu_ms": -500.0,
+      "extra_cpu_rounds_ms": [
+        -500.0,
+        -406.25,
+        -640.625
+      ],
+      "extra_cold_cpu_ms": -718.75
+    },
+    {
+      "case_index": 1,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -10,
+      "saved_outer_bytes": -435,
+      "extra_deliveries": 3,
+      "extra_cpu_ms": -625.0,
+      "extra_cpu_rounds_ms": [
+        -625.0,
+        -578.125,
+        -671.875
+      ],
+      "extra_cold_cpu_ms": -984.375
+    },
+    {
+      "case_index": 1,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 3488,
+      "saved_outer_bytes": -5044,
+      "extra_deliveries": -58,
+      "extra_cpu_ms": -4703.125,
+      "extra_cpu_rounds_ms": [
+        -4828.125,
+        -4625.0,
+        -4703.125
+      ],
+      "extra_cold_cpu_ms": -4750.0
+    },
+    {
+      "case_index": 2,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": 15.625,
+      "extra_cpu_rounds_ms": [
+        -78.125,
+        46.875,
+        15.625
+      ],
+      "extra_cold_cpu_ms": 328.125
+    },
+    {
+      "case_index": 2,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": 0.0,
+      "extra_cpu_rounds_ms": [
+        -109.375,
+        0.0,
+        359.375
+      ],
+      "extra_cold_cpu_ms": 78.125
+    },
+    {
+      "case_index": 2,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -1968,
+      "saved_outer_bytes": -8191,
+      "extra_deliveries": 23,
+      "extra_cpu_ms": -78.125,
+      "extra_cpu_rounds_ms": [
+        -125.0,
+        -78.125,
+        406.25
+      ],
+      "extra_cold_cpu_ms": 109.375
+    },
+    {
+      "case_index": 2,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 129,
+      "saved_outer_bytes": 451,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -3640.625,
+      "extra_cpu_rounds_ms": [
+        -5000.0,
+        -3640.625,
+        -3406.25
+      ],
+      "extra_cold_cpu_ms": -3875.0
+    },
+    {
+      "case_index": 2,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 129,
+      "saved_outer_bytes": 451,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -3859.375,
+      "extra_cpu_rounds_ms": [
+        -4375.0,
+        -3859.375,
+        -3562.5
+      ],
+      "extra_cold_cpu_ms": -3937.5
+    },
+    {
+      "case_index": 2,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 577,
+      "saved_outer_bytes": -7445,
+      "extra_deliveries": -10,
+      "extra_cpu_ms": -6921.875,
+      "extra_cpu_rounds_ms": [
+        -7140.625,
+        -6593.75,
+        -6921.875
+      ],
+      "extra_cold_cpu_ms": -7125.0
+    },
+    {
+      "case_index": 2,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -55,
+      "saved_outer_bytes": -83,
+      "extra_deliveries": 1,
+      "extra_cpu_ms": -437.5,
+      "extra_cpu_rounds_ms": [
+        -546.875,
+        -437.5,
+        -78.125
+      ],
+      "extra_cold_cpu_ms": -437.5
+    },
+    {
+      "case_index": 2,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -55,
+      "saved_outer_bytes": -83,
+      "extra_deliveries": 1,
+      "extra_cpu_ms": -546.875,
+      "extra_cpu_rounds_ms": [
+        -500.0,
+        -640.625,
+        -546.875
+      ],
+      "extra_cold_cpu_ms": -781.25
+    },
+    {
+      "case_index": 2,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 5486,
+      "saved_outer_bytes": -3209,
+      "extra_deliveries": -48,
+      "extra_cpu_ms": -5875.0,
+      "extra_cpu_rounds_ms": [
+        -5875.0,
+        -4984.375,
+        -6515.625
+      ],
+      "extra_cold_cpu_ms": -5234.375
+    },
+    {
+      "case_index": 3,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": 62.5,
+      "extra_cpu_rounds_ms": [
+        62.5,
+        171.875,
+        46.875
+      ],
+      "extra_cold_cpu_ms": 46.875
+    },
+    {
+      "case_index": 3,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -46.875,
+      "extra_cpu_rounds_ms": [
+        -109.375,
+        -31.25,
+        -46.875
+      ],
+      "extra_cold_cpu_ms": -390.625
+    },
+    {
+      "case_index": 3,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -2541,
+      "saved_outer_bytes": -8708,
+      "extra_deliveries": 15,
+      "extra_cpu_ms": 109.375,
+      "extra_cpu_rounds_ms": [
+        93.75,
+        109.375,
+        265.625
+      ],
+      "extra_cold_cpu_ms": 15.625
+    },
+    {
+      "case_index": 3,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 80,
+      "saved_outer_bytes": 34,
+      "extra_deliveries": 2,
+      "extra_cpu_ms": -43890.625,
+      "extra_cpu_rounds_ms": [
+        -43890.625,
+        -41156.25,
+        -54562.5
+      ],
+      "extra_cold_cpu_ms": -43500.0
+    },
+    {
+      "case_index": 3,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 80,
+      "saved_outer_bytes": 34,
+      "extra_deliveries": 2,
+      "extra_cpu_ms": -39718.75,
+      "extra_cpu_rounds_ms": [
+        -35406.25,
+        -39718.75,
+        -53625.0
+      ],
+      "extra_cold_cpu_ms": -40437.5
+    },
+    {
+      "case_index": 3,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 864,
+      "saved_outer_bytes": -4166,
+      "extra_deliveries": -8,
+      "extra_cpu_ms": -54406.25,
+      "extra_cpu_rounds_ms": [
+        -48093.75,
+        -54406.25,
+        -71531.25
+      ],
+      "extra_cold_cpu_ms": -54609.375
+    },
+    {
+      "case_index": 3,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -174,
+      "saved_outer_bytes": -516,
+      "extra_deliveries": 5,
+      "extra_cpu_ms": -453.125,
+      "extra_cpu_rounds_ms": [
+        -281.25,
+        -562.5,
+        -453.125
+      ],
+      "extra_cold_cpu_ms": -625.0
+    },
+    {
+      "case_index": 3,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -174,
+      "saved_outer_bytes": -516,
+      "extra_deliveries": 5,
+      "extra_cpu_ms": -453.125,
+      "extra_cpu_rounds_ms": [
+        -281.25,
+        -578.125,
+        -453.125
+      ],
+      "extra_cold_cpu_ms": -671.875
+    },
+    {
+      "case_index": 3,
+      "case": {
+        "record": "TMobile-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 6013,
+      "saved_outer_bytes": -2066,
+      "extra_deliveries": -64,
+      "extra_cpu_ms": -5312.5,
+      "extra_cpu_rounds_ms": [
+        -5234.375,
+        -5312.5,
+        -6656.25
+      ],
+      "extra_cold_cpu_ms": -5656.25
+    },
+    {
+      "case_index": 4,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 386,
+      "saved_outer_bytes": 749,
+      "extra_deliveries": -4,
+      "extra_cpu_ms": -15.625,
+      "extra_cpu_rounds_ms": [
+        -62.5,
+        31.25,
+        -15.625
+      ],
+      "extra_cold_cpu_ms": -468.75
+    },
+    {
+      "case_index": 4,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -31.25,
+      "extra_cpu_rounds_ms": [
+        -31.25,
+        109.375,
+        -109.375
+      ],
+      "extra_cold_cpu_ms": -390.625
+    },
+    {
+      "case_index": 4,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -2501,
+      "saved_outer_bytes": -7852,
+      "extra_deliveries": 18,
+      "extra_cpu_ms": 62.5,
+      "extra_cpu_rounds_ms": [
+        93.75,
+        62.5,
+        62.5
+      ],
+      "extra_cold_cpu_ms": -500.0
+    },
+    {
+      "case_index": 4,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 274,
+      "saved_outer_bytes": 670,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -1375.0,
+      "extra_cpu_rounds_ms": [
+        -1375.0,
+        -1171.875,
+        -1453.125
+      ],
+      "extra_cold_cpu_ms": -1734.375
+    },
+    {
+      "case_index": 4,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 274,
+      "saved_outer_bytes": 670,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -1437.5,
+      "extra_cpu_rounds_ms": [
+        -1437.5,
+        -1109.375,
+        -1437.5
+      ],
+      "extra_cold_cpu_ms": -1531.25
+    },
+    {
+      "case_index": 4,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 610,
+      "saved_outer_bytes": -6386,
+      "extra_deliveries": -18,
+      "extra_cpu_ms": -2328.125,
+      "extra_cpu_rounds_ms": [
+        -2328.125,
+        -2125.0,
+        -2640.625
+      ],
+      "extra_cold_cpu_ms": -3125.0
+    },
+    {
+      "case_index": 4,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -515.625,
+      "extra_cpu_rounds_ms": [
+        -515.625,
+        -546.875,
+        -437.5
+      ],
+      "extra_cold_cpu_ms": -1812.5
+    },
+    {
+      "case_index": 4,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -343.75,
+      "extra_cpu_rounds_ms": [
+        -343.75,
+        -328.125,
+        -468.75
+      ],
+      "extra_cold_cpu_ms": -1265.625
+    },
+    {
+      "case_index": 4,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 2141,
+      "saved_outer_bytes": -6592,
+      "extra_deliveries": -44,
+      "extra_cpu_ms": -3921.875,
+      "extra_cpu_rounds_ms": [
+        -3671.875,
+        -3921.875,
+        -4250.0
+      ],
+      "extra_cold_cpu_ms": -4125.0
+    },
+    {
+      "case_index": 5,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -209,
+      "saved_outer_bytes": -974,
+      "extra_deliveries": -3,
+      "extra_cpu_ms": 78.125,
+      "extra_cpu_rounds_ms": [
+        78.125,
+        250.0,
+        -62.5
+      ],
+      "extra_cold_cpu_ms": 1234.375
+    },
+    {
+      "case_index": 5,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -110,
+      "saved_outer_bytes": -166,
+      "extra_deliveries": 2,
+      "extra_cpu_ms": 31.25,
+      "extra_cpu_rounds_ms": [
+        62.5,
+        31.25,
+        -46.875
+      ],
+      "extra_cold_cpu_ms": 1046.875
+    },
+    {
+      "case_index": 5,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -2991,
+      "saved_outer_bytes": -8064,
+      "extra_deliveries": 12,
+      "extra_cpu_ms": 140.625,
+      "extra_cpu_rounds_ms": [
+        218.75,
+        140.625,
+        -46.875
+      ],
+      "extra_cold_cpu_ms": 1281.25
+    },
+    {
+      "case_index": 5,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -380,
+      "saved_outer_bytes": -402,
+      "extra_deliveries": 5,
+      "extra_cpu_ms": -7703.125,
+      "extra_cpu_rounds_ms": [
+        -7453.125,
+        -7703.125,
+        -9093.75
+      ],
+      "extra_cold_cpu_ms": -6921.875
+    },
+    {
+      "case_index": 5,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -372,
+      "saved_outer_bytes": -302,
+      "extra_deliveries": 1,
+      "extra_cpu_ms": -9078.125,
+      "extra_cpu_rounds_ms": [
+        -7671.875,
+        -9140.625,
+        -9078.125
+      ],
+      "extra_cold_cpu_ms": -8015.625
+    },
+    {
+      "case_index": 5,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 4,
+      "saved_outer_bytes": -4786,
+      "extra_deliveries": -7,
+      "extra_cpu_ms": -12640.625,
+      "extra_cpu_rounds_ms": [
+        -10078.125,
+        -12640.625,
+        -13218.75
+      ],
+      "extra_cold_cpu_ms": -12750.0
+    },
+    {
+      "case_index": 5,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -118,
+      "saved_outer_bytes": -265,
+      "extra_deliveries": 5,
+      "extra_cpu_ms": -531.25,
+      "extra_cpu_rounds_ms": [
+        -218.75,
+        -656.25,
+        -531.25
+      ],
+      "extra_cold_cpu_ms": -796.875
+    },
+    {
+      "case_index": 5,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -118,
+      "saved_outer_bytes": -265,
+      "extra_deliveries": 5,
+      "extra_cpu_ms": -359.375,
+      "extra_cpu_rounds_ms": [
+        -296.875,
+        -640.625,
+        -359.375
+      ],
+      "extra_cold_cpu_ms": -1031.25
+    },
+    {
+      "case_index": 5,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 2457,
+      "saved_outer_bytes": -5514,
+      "extra_deliveries": -53,
+      "extra_cpu_ms": -4250.0,
+      "extra_cpu_rounds_ms": [
+        -3343.75,
+        -4265.625,
+        -4250.0
+      ],
+      "extra_cold_cpu_ms": -4703.125
+    },
+    {
+      "case_index": 6,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 55,
+      "saved_outer_bytes": 83,
+      "extra_deliveries": 1,
+      "extra_cpu_ms": 0.0,
+      "extra_cpu_rounds_ms": [
+        0.0,
+        250.0,
+        -109.375
+      ],
+      "extra_cold_cpu_ms": -390.625
+    },
+    {
+      "case_index": 6,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": 62.5,
+      "extra_cpu_rounds_ms": [
+        -78.125,
+        62.5,
+        218.75
+      ],
+      "extra_cold_cpu_ms": -390.625
+    },
+    {
+      "case_index": 6,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -2723,
+      "saved_outer_bytes": -8520,
+      "extra_deliveries": 21,
+      "extra_cpu_ms": 31.25,
+      "extra_cpu_rounds_ms": [
+        -31.25,
+        328.125,
+        31.25
+      ],
+      "extra_cold_cpu_ms": -343.75
+    },
+    {
+      "case_index": 6,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 277,
+      "saved_outer_bytes": 339,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -1656.25,
+      "extra_cpu_rounds_ms": [
+        -1656.25,
+        -1359.375,
+        -1781.25
+      ],
+      "extra_cold_cpu_ms": -1625.0
+    },
+    {
+      "case_index": 6,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 277,
+      "saved_outer_bytes": 339,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -1515.625,
+      "extra_cpu_rounds_ms": [
+        -1671.875,
+        -1218.75,
+        -1515.625
+      ],
+      "extra_cold_cpu_ms": -1562.5
+    },
+    {
+      "case_index": 6,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 949,
+      "saved_outer_bytes": -6381,
+      "extra_deliveries": -19,
+      "extra_cpu_ms": -2671.875,
+      "extra_cpu_rounds_ms": [
+        -2718.75,
+        -2453.125,
+        -2671.875
+      ],
+      "extra_cold_cpu_ms": -2765.625
+    },
+    {
+      "case_index": 6,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -55,
+      "saved_outer_bytes": -83,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -421.875,
+      "extra_cpu_rounds_ms": [
+        -578.125,
+        -421.875,
+        -390.625
+      ],
+      "extra_cold_cpu_ms": -437.5
+    },
+    {
+      "case_index": 6,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -55,
+      "saved_outer_bytes": -83,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -375.0,
+      "extra_cpu_rounds_ms": [
+        -500.0,
+        -250.0,
+        -375.0
+      ],
+      "extra_cold_cpu_ms": -250.0
+    },
+    {
+      "case_index": 6,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 3569,
+      "saved_outer_bytes": -4770,
+      "extra_deliveries": -46,
+      "extra_cpu_ms": -4640.625,
+      "extra_cpu_rounds_ms": [
+        -4640.625,
+        -5859.375,
+        -4234.375
+      ],
+      "extra_cold_cpu_ms": -4093.75
+    },
+    {
+      "case_index": 7,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": 93.75,
+      "extra_cpu_rounds_ms": [
+        156.25,
+        -93.75,
+        93.75
+      ],
+      "extra_cold_cpu_ms": -62.5
+    },
+    {
+      "case_index": 7,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": 140.625,
+      "extra_cpu_rounds_ms": [
+        140.625,
+        -125.0,
+        296.875
+      ],
+      "extra_cold_cpu_ms": 234.375
+    },
+    {
+      "case_index": 7,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -5285,
+      "saved_outer_bytes": -8862,
+      "extra_deliveries": 48,
+      "extra_cpu_ms": 203.125,
+      "extra_cpu_rounds_ms": [
+        203.125,
+        15.625,
+        640.625
+      ],
+      "extra_cold_cpu_ms": 93.75
+    },
+    {
+      "case_index": 7,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -441,
+      "saved_outer_bytes": -795,
+      "extra_deliveries": 6,
+      "extra_cpu_ms": -12468.75,
+      "extra_cpu_rounds_ms": [
+        -11390.625,
+        -12468.75,
+        -13906.25
+      ],
+      "extra_cold_cpu_ms": -12109.375
+    },
+    {
+      "case_index": 7,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -441,
+      "saved_outer_bytes": -795,
+      "extra_deliveries": 6,
+      "extra_cpu_ms": -12531.25,
+      "extra_cpu_rounds_ms": [
+        -11187.5,
+        -12531.25,
+        -13453.125
+      ],
+      "extra_cold_cpu_ms": -12656.25
+    },
+    {
+      "case_index": 7,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -689,
+      "saved_outer_bytes": -5015,
+      "extra_deliveries": 1,
+      "extra_cpu_ms": -15046.875,
+      "extra_cpu_rounds_ms": [
+        -10328.125,
+        -15046.875,
+        -15390.625
+      ],
+      "extra_cold_cpu_ms": -15234.375
+    },
+    {
+      "case_index": 7,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -495,
+      "saved_outer_bytes": -747,
+      "extra_deliveries": 3,
+      "extra_cpu_ms": -656.25,
+      "extra_cpu_rounds_ms": [
+        -640.625,
+        -1156.25,
+        -656.25
+      ],
+      "extra_cold_cpu_ms": -1078.125
+    },
+    {
+      "case_index": 7,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -495,
+      "saved_outer_bytes": -747,
+      "extra_deliveries": 3,
+      "extra_cpu_ms": -953.125,
+      "extra_cpu_rounds_ms": [
+        -562.5,
+        -1453.125,
+        -953.125
+      ],
+      "extra_cold_cpu_ms": -1625.0
+    },
+    {
+      "case_index": 7,
+      "case": {
+        "record": "TMobile-UMTS-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 1702,
+      "saved_outer_bytes": -4156,
+      "extra_deliveries": -25,
+      "extra_cpu_ms": -5109.375,
+      "extra_cpu_rounds_ms": [
+        -3218.75,
+        -5421.875,
+        -5109.375
+      ],
+      "extra_cold_cpu_ms": -5609.375
+    },
+    {
+      "case_index": 8,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 272,
+      "saved_outer_bytes": -89,
+      "extra_deliveries": -4,
+      "extra_cpu_ms": -62.5,
+      "extra_cpu_rounds_ms": [
+        -62.5,
+        -109.375,
+        46.875
+      ],
+      "extra_cold_cpu_ms": -78.125
+    },
+    {
+      "case_index": 8,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -140.625,
+      "extra_cpu_rounds_ms": [
+        0.0,
+        -140.625,
+        -234.375
+      ],
+      "extra_cold_cpu_ms": -312.5
+    },
+    {
+      "case_index": 8,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -5046,
+      "saved_outer_bytes": -3346,
+      "extra_deliveries": 23,
+      "extra_cpu_ms": 93.75,
+      "extra_cpu_rounds_ms": [
+        93.75,
+        78.125,
+        171.875
+      ],
+      "extra_cold_cpu_ms": -109.375
+    },
+    {
+      "case_index": 8,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 446,
+      "saved_outer_bytes": 1559,
+      "extra_deliveries": -2,
+      "extra_cpu_ms": -1984.375,
+      "extra_cpu_rounds_ms": [
+        -1359.375,
+        -1984.375,
+        -2000.0
+      ],
+      "extra_cold_cpu_ms": -1750.0
+    },
+    {
+      "case_index": 8,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 446,
+      "saved_outer_bytes": 1559,
+      "extra_deliveries": -2,
+      "extra_cpu_ms": -1781.25,
+      "extra_cpu_rounds_ms": [
+        -1343.75,
+        -1890.625,
+        -1781.25
+      ],
+      "extra_cold_cpu_ms": -2000.0
+    },
+    {
+      "case_index": 8,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 446,
+      "saved_outer_bytes": 47,
+      "extra_deliveries": -9,
+      "extra_cpu_ms": -2109.375,
+      "extra_cpu_rounds_ms": [
+        -1703.125,
+        -2203.125,
+        -2109.375
+      ],
+      "extra_cold_cpu_ms": -2109.375
+    },
+    {
+      "case_index": 8,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -164,
+      "saved_outer_bytes": -81,
+      "extra_deliveries": -1,
+      "extra_cpu_ms": -46.875,
+      "extra_cpu_rounds_ms": [
+        -46.875,
+        78.125,
+        -109.375
+      ],
+      "extra_cold_cpu_ms": 140.625
+    },
+    {
+      "case_index": 8,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -164,
+      "saved_outer_bytes": -81,
+      "extra_deliveries": -1,
+      "extra_cpu_ms": -218.75,
+      "extra_cpu_rounds_ms": [
+        -234.375,
+        -171.875,
+        -218.75
+      ],
+      "extra_cold_cpu_ms": 31.25
+    },
+    {
+      "case_index": 8,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 484,
+      "saved_outer_bytes": -1101,
+      "extra_deliveries": -10,
+      "extra_cpu_ms": -78.125,
+      "extra_cpu_rounds_ms": [
+        -78.125,
+        250.0,
+        -375.0
+      ],
+      "extra_cold_cpu_ms": 328.125
+    },
+    {
+      "case_index": 9,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 171,
+      "saved_outer_bytes": 12,
+      "extra_deliveries": -2,
+      "extra_cpu_ms": 78.125,
+      "extra_cpu_rounds_ms": [
+        0.0,
+        109.375,
+        78.125
+      ],
+      "extra_cold_cpu_ms": 31.25
+    },
+    {
+      "case_index": 9,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": 46.875,
+      "extra_cpu_rounds_ms": [
+        46.875,
+        375.0,
+        -281.25
+      ],
+      "extra_cold_cpu_ms": 234.375
+    },
+    {
+      "case_index": 9,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -6128,
+      "saved_outer_bytes": -5443,
+      "extra_deliveries": 37,
+      "extra_cpu_ms": 62.5,
+      "extra_cpu_rounds_ms": [
+        62.5,
+        328.125,
+        -46.875
+      ],
+      "extra_cold_cpu_ms": 453.125
+    },
+    {
+      "case_index": 9,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 193,
+      "saved_outer_bytes": 259,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -10593.75,
+      "extra_cpu_rounds_ms": [
+        -7421.875,
+        -10593.75,
+        -11218.75
+      ],
+      "extra_cold_cpu_ms": -10421.875
+    },
+    {
+      "case_index": 9,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 193,
+      "saved_outer_bytes": 259,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -10781.25,
+      "extra_cpu_rounds_ms": [
+        -7234.375,
+        -10781.25,
+        -12046.875
+      ],
+      "extra_cold_cpu_ms": -10578.125
+    },
+    {
+      "case_index": 9,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 649,
+      "saved_outer_bytes": 23,
+      "extra_deliveries": -4,
+      "extra_cpu_ms": -11640.625,
+      "extra_cpu_rounds_ms": [
+        -7187.5,
+        -11640.625,
+        -11921.875
+      ],
+      "extra_cold_cpu_ms": -12015.625
+    },
+    {
+      "case_index": 9,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -118,
+      "saved_outer_bytes": -265,
+      "extra_deliveries": -2,
+      "extra_cpu_ms": -15.625,
+      "extra_cpu_rounds_ms": [
+        -15.625,
+        125.0,
+        -187.5
+      ],
+      "extra_cold_cpu_ms": -218.75
+    },
+    {
+      "case_index": 9,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -118,
+      "saved_outer_bytes": -265,
+      "extra_deliveries": -2,
+      "extra_cpu_ms": 171.875,
+      "extra_cpu_rounds_ms": [
+        -31.25,
+        218.75,
+        171.875
+      ],
+      "extra_cold_cpu_ms": 15.625
+    },
+    {
+      "case_index": 9,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 439,
+      "saved_outer_bytes": -749,
+      "extra_deliveries": -11,
+      "extra_cpu_ms": -15.625,
+      "extra_cpu_rounds_ms": [
+        -15.625,
+        140.625,
+        -78.125
+      ],
+      "extra_cold_cpu_ms": 62.5
+    },
+    {
+      "case_index": 10,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 110,
+      "saved_outer_bytes": 166,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": 46.875,
+      "extra_cpu_rounds_ms": [
+        46.875,
+        -218.75,
+        93.75
+      ],
+      "extra_cold_cpu_ms": 109.375
+    },
+    {
+      "case_index": 10,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -125.0,
+      "extra_cpu_rounds_ms": [
+        31.25,
+        -125.0,
+        -250.0
+      ],
+      "extra_cold_cpu_ms": -1046.875
+    },
+    {
+      "case_index": 10,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -8737,
+      "saved_outer_bytes": -9915,
+      "extra_deliveries": 57,
+      "extra_cpu_ms": -31.25,
+      "extra_cpu_rounds_ms": [
+        218.75,
+        -31.25,
+        -171.875
+      ],
+      "extra_cold_cpu_ms": -1203.125
+    },
+    {
+      "case_index": 10,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -109,
+      "saved_outer_bytes": 30,
+      "extra_deliveries": 7,
+      "extra_cpu_ms": -1640.625,
+      "extra_cpu_rounds_ms": [
+        -1156.25,
+        -1953.125,
+        -1640.625
+      ],
+      "extra_cold_cpu_ms": -1265.625
+    },
+    {
+      "case_index": 10,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -109,
+      "saved_outer_bytes": 30,
+      "extra_deliveries": 7,
+      "extra_cpu_ms": -1484.375,
+      "extra_cpu_rounds_ms": [
+        -1312.5,
+        -2156.25,
+        -1484.375
+      ],
+      "extra_cold_cpu_ms": -1421.875
+    },
+    {
+      "case_index": 10,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 899,
+      "saved_outer_bytes": -1314,
+      "extra_deliveries": -2,
+      "extra_cpu_ms": -1640.625,
+      "extra_cpu_rounds_ms": [
+        -1531.25,
+        -2375.0,
+        -1640.625
+      ],
+      "extra_cold_cpu_ms": -1859.375
+    },
+    {
+      "case_index": 10,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -109.375,
+      "extra_cpu_rounds_ms": [
+        -109.375,
+        -328.125,
+        -93.75
+      ],
+      "extra_cold_cpu_ms": 140.625
+    },
+    {
+      "case_index": 10,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -15.625,
+      "extra_cpu_rounds_ms": [
+        -15.625,
+        -171.875,
+        109.375
+      ],
+      "extra_cold_cpu_ms": 343.75
+    },
+    {
+      "case_index": 10,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 752,
+      "saved_outer_bytes": -1862,
+      "extra_deliveries": -15,
+      "extra_cpu_ms": -187.5,
+      "extra_cpu_rounds_ms": [
+        -125.0,
+        -421.875,
+        -187.5
+      ],
+      "extra_cold_cpu_ms": -234.375
+    },
+    {
+      "case_index": 11,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -55,
+      "saved_outer_bytes": -83,
+      "extra_deliveries": 4,
+      "extra_cpu_ms": 171.875,
+      "extra_cpu_rounds_ms": [
+        187.5,
+        171.875,
+        62.5
+      ],
+      "extra_cold_cpu_ms": 625.0
+    },
+    {
+      "case_index": 11,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": 78.125,
+      "extra_cpu_rounds_ms": [
+        78.125,
+        109.375,
+        -78.125
+      ],
+      "extra_cold_cpu_ms": 343.75
+    },
+    {
+      "case_index": 11,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -9957,
+      "saved_outer_bytes": -12400,
+      "extra_deliveries": 72,
+      "extra_cpu_ms": 234.375,
+      "extra_cpu_rounds_ms": [
+        187.5,
+        359.375,
+        234.375
+      ],
+      "extra_cold_cpu_ms": 515.625
+    },
+    {
+      "case_index": 11,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 312,
+      "saved_outer_bytes": -90,
+      "extra_deliveries": 5,
+      "extra_cpu_ms": -5765.625,
+      "extra_cpu_rounds_ms": [
+        -5765.625,
+        -7171.875,
+        -5453.125
+      ],
+      "extra_cold_cpu_ms": -5015.625
+    },
+    {
+      "case_index": 11,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 312,
+      "saved_outer_bytes": -90,
+      "extra_deliveries": 5,
+      "extra_cpu_ms": -6546.875,
+      "extra_cpu_rounds_ms": [
+        -5390.625,
+        -7359.375,
+        -6546.875
+      ],
+      "extra_cold_cpu_ms": -6437.5
+    },
+    {
+      "case_index": 11,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 528,
+      "saved_outer_bytes": -1534,
+      "extra_deliveries": 4,
+      "extra_cpu_ms": -9109.375,
+      "extra_cpu_rounds_ms": [
+        -7156.25,
+        -10687.5,
+        -9109.375
+      ],
+      "extra_cold_cpu_ms": -9203.125
+    },
+    {
+      "case_index": 11,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -63,
+      "saved_outer_bytes": -182,
+      "extra_deliveries": 2,
+      "extra_cpu_ms": -156.25,
+      "extra_cpu_rounds_ms": [
+        -46.875,
+        -156.25,
+        -156.25
+      ],
+      "extra_cold_cpu_ms": 62.5
+    },
+    {
+      "case_index": 11,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -63,
+      "saved_outer_bytes": -182,
+      "extra_deliveries": 2,
+      "extra_cpu_ms": 46.875,
+      "extra_cpu_rounds_ms": [
+        46.875,
+        171.875,
+        -234.375
+      ],
+      "extra_cold_cpu_ms": 93.75
+    },
+    {
+      "case_index": 11,
+      "case": {
+        "record": "Verizon-EVDO-driving",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 973,
+      "saved_outer_bytes": -1362,
+      "extra_deliveries": -13,
+      "extra_cpu_ms": -281.25,
+      "extra_cpu_rounds_ms": [
+        -296.875,
+        -156.25,
+        -281.25
+      ],
+      "extra_cold_cpu_ms": -140.625
+    },
+    {
+      "case_index": 12,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 326,
+      "saved_outer_bytes": -174,
+      "extra_deliveries": -4,
+      "extra_cpu_ms": -46.875,
+      "extra_cpu_rounds_ms": [
+        140.625,
+        -125.0,
+        -46.875
+      ],
+      "extra_cold_cpu_ms": -109.375
+    },
+    {
+      "case_index": 12,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 217,
+      "saved_outer_bytes": -172,
+      "extra_deliveries": -2,
+      "extra_cpu_ms": 109.375,
+      "extra_cpu_rounds_ms": [
+        234.375,
+        -265.625,
+        109.375
+      ],
+      "extra_cold_cpu_ms": 859.375
+    },
+    {
+      "case_index": 12,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -1951,
+      "saved_outer_bytes": -6580,
+      "extra_deliveries": 24,
+      "extra_cpu_ms": 203.125,
+      "extra_cpu_rounds_ms": [
+        203.125,
+        156.25,
+        281.25
+      ],
+      "extra_cold_cpu_ms": 1078.125
+    },
+    {
+      "case_index": 12,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -303,
+      "saved_outer_bytes": 794,
+      "extra_deliveries": 3,
+      "extra_cpu_ms": -4671.875,
+      "extra_cpu_rounds_ms": [
+        -4078.125,
+        -6625.0,
+        -4671.875
+      ],
+      "extra_cold_cpu_ms": -3671.875
+    },
+    {
+      "case_index": 12,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -303,
+      "saved_outer_bytes": 794,
+      "extra_deliveries": 3,
+      "extra_cpu_ms": -4390.625,
+      "extra_cpu_rounds_ms": [
+        -4234.375,
+        -6203.125,
+        -4390.625
+      ],
+      "extra_cold_cpu_ms": -3500.0
+    },
+    {
+      "case_index": 12,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 929,
+      "saved_outer_bytes": -5590,
+      "extra_deliveries": -8,
+      "extra_cpu_ms": -7515.625,
+      "extra_cpu_rounds_ms": [
+        -6843.75,
+        -10203.125,
+        -7515.625
+      ],
+      "extra_cold_cpu_ms": -6859.375
+    },
+    {
+      "case_index": 12,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 55,
+      "saved_outer_bytes": 83,
+      "extra_deliveries": -1,
+      "extra_cpu_ms": -78.125,
+      "extra_cpu_rounds_ms": [
+        -78.125,
+        -718.75,
+        -31.25
+      ],
+      "extra_cold_cpu_ms": 828.125
+    },
+    {
+      "case_index": 12,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 55,
+      "saved_outer_bytes": 83,
+      "extra_deliveries": -1,
+      "extra_cpu_ms": -359.375,
+      "extra_cpu_rounds_ms": [
+        -156.25,
+        -656.25,
+        -359.375
+      ],
+      "extra_cold_cpu_ms": -203.125
+    },
+    {
+      "case_index": 12,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 3625,
+      "saved_outer_bytes": -4519,
+      "extra_deliveries": -48,
+      "extra_cpu_ms": -2750.0,
+      "extra_cpu_rounds_ms": [
+        -2015.625,
+        -2750.0,
+        -2765.625
+      ],
+      "extra_cold_cpu_ms": -2562.5
+    },
+    {
+      "case_index": 13,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -22,
+      "saved_outer_bytes": -1206,
+      "extra_deliveries": -7,
+      "extra_cpu_ms": -187.5,
+      "extra_cpu_rounds_ms": [
+        -187.5,
+        -484.375,
+        -140.625
+      ],
+      "extra_cold_cpu_ms": 0.0
+    },
+    {
+      "case_index": 13,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -93,
+      "saved_outer_bytes": 200,
+      "extra_deliveries": -3,
+      "extra_cpu_ms": -390.625,
+      "extra_cpu_rounds_ms": [
+        -328.125,
+        -656.25,
+        -390.625
+      ],
+      "extra_cold_cpu_ms": -1390.625
+    },
+    {
+      "case_index": 13,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -3007,
+      "saved_outer_bytes": -7073,
+      "extra_deliveries": 19,
+      "extra_cpu_ms": -78.125,
+      "extra_cpu_rounds_ms": [
+        -78.125,
+        -281.25,
+        -78.125
+      ],
+      "extra_cold_cpu_ms": -1593.75
+    },
+    {
+      "case_index": 13,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -494,
+      "saved_outer_bytes": 834,
+      "extra_deliveries": 5,
+      "extra_cpu_ms": -44296.875,
+      "extra_cpu_rounds_ms": [
+        -36359.375,
+        -49984.375,
+        -44296.875
+      ],
+      "extra_cold_cpu_ms": -45296.875
+    },
+    {
+      "case_index": 13,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -382,
+      "saved_outer_bytes": 1002,
+      "extra_deliveries": 7,
+      "extra_cpu_ms": -62859.375,
+      "extra_cpu_rounds_ms": [
+        -55218.75,
+        -71078.125,
+        -62859.375
+      ],
+      "extra_cold_cpu_ms": -62687.5
+    },
+    {
+      "case_index": 13,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 114,
+      "saved_outer_bytes": -4558,
+      "extra_deliveries": -9,
+      "extra_cpu_ms": -82187.5,
+      "extra_cpu_rounds_ms": [
+        -66328.125,
+        -88218.75,
+        -82187.5
+      ],
+      "extra_cold_cpu_ms": -82921.875
+    },
+    {
+      "case_index": 13,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -102,
+      "saved_outer_bytes": -67,
+      "extra_deliveries": -2,
+      "extra_cpu_ms": -546.875,
+      "extra_cpu_rounds_ms": [
+        -546.875,
+        -1015.625,
+        -375.0
+      ],
+      "extra_cold_cpu_ms": -671.875
+    },
+    {
+      "case_index": 13,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -102,
+      "saved_outer_bytes": -67,
+      "extra_deliveries": -2,
+      "extra_cpu_ms": -687.5,
+      "extra_cpu_rounds_ms": [
+        -687.5,
+        -781.25,
+        -453.125
+      ],
+      "extra_cold_cpu_ms": -578.125
+    },
+    {
+      "case_index": 13,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1000,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 3339,
+      "saved_outer_bytes": -3850,
+      "extra_deliveries": -60,
+      "extra_cpu_ms": -2109.375,
+      "extra_cpu_rounds_ms": [
+        -1953.125,
+        -2609.375,
+        -2109.375
+      ],
+      "extra_cold_cpu_ms": -2078.125
+    },
+    {
+      "case_index": 14,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -46.875,
+      "extra_cpu_rounds_ms": [
+        -281.25,
+        -46.875,
+        62.5
+      ],
+      "extra_cold_cpu_ms": -109.375
+    },
+    {
+      "case_index": 14,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -171.875,
+      "extra_cpu_rounds_ms": [
+        -218.75,
+        -171.875,
+        -125.0
+      ],
+      "extra_cold_cpu_ms": -406.25
+    },
+    {
+      "case_index": 14,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -2455,
+      "saved_outer_bytes": -8839,
+      "extra_deliveries": 32,
+      "extra_cpu_ms": 62.5,
+      "extra_cpu_rounds_ms": [
+        -375.0,
+        62.5,
+        265.625
+      ],
+      "extra_cold_cpu_ms": 109.375
+    },
+    {
+      "case_index": 14,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -807,
+      "saved_outer_bytes": -1297,
+      "extra_deliveries": 11,
+      "extra_cpu_ms": -5203.125,
+      "extra_cpu_rounds_ms": [
+        -5140.625,
+        -5203.125,
+        -6578.125
+      ],
+      "extra_cold_cpu_ms": -5343.75
+    },
+    {
+      "case_index": 14,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -807,
+      "saved_outer_bytes": -1297,
+      "extra_deliveries": 11,
+      "extra_cpu_ms": -5500.0,
+      "extra_cpu_rounds_ms": [
+        -5500.0,
+        -5406.25,
+        -6453.125
+      ],
+      "extra_cold_cpu_ms": -5593.75
+    },
+    {
+      "case_index": 14,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 425,
+      "saved_outer_bytes": -7849,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -9093.75,
+      "extra_cpu_rounds_ms": [
+        -8640.625,
+        -9093.75,
+        -11265.625
+      ],
+      "extra_cold_cpu_ms": -9390.625
+    },
+    {
+      "case_index": 14,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -55,
+      "saved_outer_bytes": -83,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -578.125,
+      "extra_cpu_rounds_ms": [
+        -578.125,
+        -578.125,
+        -328.125
+      ],
+      "extra_cold_cpu_ms": -687.5
+    },
+    {
+      "case_index": 14,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -55,
+      "saved_outer_bytes": -83,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -562.5,
+      "extra_cpu_rounds_ms": [
+        -687.5,
+        -468.75,
+        -562.5
+      ],
+      "extra_cold_cpu_ms": -656.25
+    },
+    {
+      "case_index": 14,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 5376,
+      "saved_outer_bytes": -3375,
+      "extra_deliveries": -42,
+      "extra_cpu_ms": -2187.5,
+      "extra_cpu_rounds_ms": [
+        -2125.0,
+        -2187.5,
+        -2500.0
+      ],
+      "extra_cold_cpu_ms": -2531.25
+    },
+    {
+      "case_index": 15,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -140.625,
+      "extra_cpu_rounds_ms": [
+        -203.125,
+        -31.25,
+        -140.625
+      ],
+      "extra_cold_cpu_ms": 78.125
+    },
+    {
+      "case_index": 15,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "GuardedTwoInterval",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": 0,
+      "saved_outer_bytes": 0,
+      "extra_deliveries": 0,
+      "extra_cpu_ms": -78.125,
+      "extra_cpu_rounds_ms": [
+        -328.125,
+        -78.125,
+        125.0
+      ],
+      "extra_cold_cpu_ms": 531.25
+    },
+    {
+      "case_index": 15,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "FixedLocal",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -3474,
+      "saved_outer_bytes": -9783,
+      "extra_deliveries": 27,
+      "extra_cpu_ms": 125.0,
+      "extra_cpu_rounds_ms": [
+        -187.5,
+        125.0,
+        265.625
+      ],
+      "extra_cold_cpu_ms": 609.375
+    },
+    {
+      "case_index": 15,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -345,
+      "saved_outer_bytes": -616,
+      "extra_deliveries": 6,
+      "extra_cpu_ms": -50187.5,
+      "extra_cpu_rounds_ms": [
+        -50187.5,
+        -43250.0,
+        -52531.25
+      ],
+      "extra_cold_cpu_ms": -49812.5
+    },
+    {
+      "case_index": 15,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -345,
+      "saved_outer_bytes": -616,
+      "extra_deliveries": 6,
+      "extra_cpu_ms": -49390.625,
+      "extra_cpu_rounds_ms": [
+        -49390.625,
+        -43843.75,
+        -55562.5
+      ],
+      "extra_cold_cpu_ms": -49531.25
+    },
+    {
+      "case_index": 15,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Hatami",
+      "price": 1.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": -169,
+      "saved_outer_bytes": -6144,
+      "extra_deliveries": -10,
+      "extra_cpu_ms": -101703.125,
+      "extra_cpu_rounds_ms": [
+        -84640.625,
+        -101703.125,
+        -116828.125
+      ],
+      "extra_cold_cpu_ms": -100953.125
+    },
+    {
+      "case_index": 15,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.0,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -10,
+      "saved_outer_bytes": -435,
+      "extra_deliveries": 6,
+      "extra_cpu_ms": -375.0,
+      "extra_cpu_rounds_ms": [
+        -375.0,
+        -343.75,
+        -656.25
+      ],
+      "extra_cold_cpu_ms": -531.25
+    },
+    {
+      "case_index": 15,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.01,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": true,
+      "saved_bytes": -10,
+      "saved_outer_bytes": -435,
+      "extra_deliveries": 6,
+      "extra_cpu_ms": -531.25,
+      "extra_cpu_rounds_ms": [
+        -531.25,
+        -484.375,
+        -656.25
+      ],
+      "extra_cold_cpu_ms": -546.875
+    },
+    {
+      "case_index": 15,
+      "case": {
+        "record": "Verizon-LTE-short",
+        "offset_ms": 0,
+        "budget": 1280,
+        "loss": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "reference": "Yang",
+      "price": 0.1,
+      "exact_feasible": true,
+      "reference_feasible": true,
+      "task_gate": false,
+      "saved_bytes": 5677,
+      "saved_outer_bytes": -2327,
+      "extra_deliveries": -60,
+      "extra_cpu_ms": -2546.875,
+      "extra_cpu_rounds_ms": [
+        -2015.625,
+        -2765.625,
+        -2546.875
+      ],
+      "extra_cold_cpu_ms": -2453.125
+    }
+  ],
+  "quality": [
+    [
+      0.03920451498843961,
+      0.05518133087822889,
+      0.002755746528551879,
+      0.006419160437249572,
+      0.7707443571496849,
+      0.00021166364075524312,
+      1.4999000324221267e-08,
+      1.49990004513377e-08
+    ],
+    [
+      0.03695875293528718,
+      0.05116806863778733,
+      0.0025308487899079525,
+      0.006196665946380032,
+      0.6753387770019104,
+      0.00021166312130733333,
+      1.499900017262585e-08,
+      1.499900017922904e-08
+    ]
+  ],
+  "provenance": {
+    "pairs": "results/final_guard_confirmation/summary.json: pairs",
+    "quality": "results/uav_continuation/quality_00.json and quality_25.json: bounds",
+    "ledgers": "results/uav_continuation/chain_progress.json: runs",
+    "scale": "manuscript/uav_executable_scheduling_e4n15.tex: tab:bounded-scale"
+  },
+  "scale": {
+    "sources": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "interval": [
+      278323,
+      558404,
+      1113477,
+      2216410
+    ],
+    "exact": [
+      275637,
+      552895,
+      1102772,
+      2203587
+    ],
+    "loss_interval_percent": [
+      0.133,
+      0.067,
+      0.2,
+      0.4
+    ],
+    "loss_exact_percent": [
+      0.067,
+      0.133,
+      0.2,
+      0.4
+    ]
+  },
+  "ledgers": [
+    {
+      "budget": 1000,
+      "loss": 0.0,
+      "ip": 266,
+      "udp": -1097
+    },
+    {
+      "budget": 1000,
+      "loss": 0.1,
+      "ip": 333,
+      "udp": -243
+    },
+    {
+      "budget": 1280,
+      "loss": 0.0,
+      "ip": 550,
+      "udp": 830
+    },
+    {
+      "budget": 1280,
+      "loss": 0.1,
+      "ip": 330,
+      "udp": 498
+    }
+  ]
+}

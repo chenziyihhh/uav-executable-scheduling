@@ -1,0 +1,2399 @@
+{
+  "runs": 160,
+  "all_match": true,
+  "grid_ms": [
+    2200,
+    2400,
+    2600,
+    2800,
+    3000,
+    3200,
+    3400,
+    3600,
+    3800,
+    4000,
+    4200,
+    4400,
+    4600,
+    4800,
+    5000,
+    5200,
+    5400,
+    5600,
+    5800,
+    6000,
+    6200,
+    6400,
+    6600,
+    6800,
+    7000,
+    7200,
+    7400,
+    7600,
+    7800,
+    8000,
+    8200,
+    8400,
+    8600,
+    8800,
+    9000,
+    9200,
+    9400,
+    9600,
+    9800,
+    10000,
+    10200,
+    10400,
+    10600,
+    10800,
+    11000,
+    11200,
+    11400,
+    11600,
+    11800,
+    12000,
+    12200,
+    12400,
+    12600,
+    12800,
+    13000,
+    13200,
+    13400,
+    13600,
+    13800,
+    14000,
+    14200,
+    14400,
+    14600,
+    14800,
+    15000,
+    15200,
+    15400,
+    15600,
+    15800,
+    16000,
+    16200,
+    16400,
+    16600,
+    16800,
+    17000,
+    17200,
+    17400,
+    17600,
+    17800,
+    18000,
+    18200,
+    18400,
+    18600,
+    18800,
+    19000,
+    19200,
+    19400,
+    19600,
+    19800,
+    20000,
+    20200,
+    20400,
+    20600,
+    20800,
+    21000,
+    21200,
+    21400,
+    21600,
+    21800,
+    22000,
+    22200,
+    22400,
+    22600,
+    22800,
+    23000,
+    23200,
+    23400,
+    23600,
+    23800,
+    24000,
+    24200,
+    24400,
+    24600,
+    24800,
+    25000,
+    25200,
+    25400,
+    25600,
+    25800,
+    26000,
+    26200,
+    26400,
+    26600,
+    26800,
+    27000,
+    27200,
+    27400,
+    27600,
+    27800,
+    28000,
+    28200,
+    28400,
+    28600,
+    28800,
+    29000,
+    29200,
+    29400,
+    29600,
+    29800,
+    30000,
+    30200,
+    30400,
+    30600,
+    30800,
+    31000,
+    31200,
+    31400,
+    31600,
+    31800,
+    32000
+  ],
+  "rows": [
+    {
+      "id": "00_GuardedExact_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 237,
+      "matches_saved": true
+    },
+    {
+      "id": "00_GuardedInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 238,
+      "matches_saved": true
+    },
+    {
+      "id": "00_GuardedTwoInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 237,
+      "matches_saved": true
+    },
+    {
+      "id": "00_FixedLocal_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 217,
+      "matches_saved": true
+    },
+    {
+      "id": "00_Hatami_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 237,
+      "matches_saved": true
+    },
+    {
+      "id": "00_Hatami_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 237,
+      "matches_saved": true
+    },
+    {
+      "id": "00_Hatami_1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 250,
+      "matches_saved": true
+    },
+    {
+      "id": "00_Yang_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 237,
+      "matches_saved": true
+    },
+    {
+      "id": "00_Yang_0.01",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 237,
+      "matches_saved": true
+    },
+    {
+      "id": "00_Yang_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 288,
+      "matches_saved": true
+    },
+    {
+      "id": "01_GuardedExact_0",
+      "failed_samples": [
+        1,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.02
+      ],
+      "distinct_completed_updates": 217,
+      "matches_saved": true
+    },
+    {
+      "id": "01_GuardedInterval_0",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 220,
+      "matches_saved": true
+    },
+    {
+      "id": "01_GuardedTwoInterval_0",
+      "failed_samples": [
+        1,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.02
+      ],
+      "distinct_completed_updates": 217,
+      "matches_saved": true
+    },
+    {
+      "id": "01_FixedLocal_0",
+      "failed_samples": [
+        3,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02,
+        0.0
+      ],
+      "distinct_completed_updates": 208,
+      "matches_saved": true
+    },
+    {
+      "id": "01_Hatami_0",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 213,
+      "matches_saved": true
+    },
+    {
+      "id": "01_Hatami_0.1",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 213,
+      "matches_saved": true
+    },
+    {
+      "id": "01_Hatami_1",
+      "failed_samples": [
+        2,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 229,
+      "matches_saved": true
+    },
+    {
+      "id": "01_Yang_0",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 214,
+      "matches_saved": true
+    },
+    {
+      "id": "01_Yang_0.01",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 214,
+      "matches_saved": true
+    },
+    {
+      "id": "01_Yang_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 275,
+      "matches_saved": true
+    },
+    {
+      "id": "02_GuardedExact_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 240,
+      "matches_saved": true
+    },
+    {
+      "id": "02_GuardedInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 240,
+      "matches_saved": true
+    },
+    {
+      "id": "02_GuardedTwoInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 240,
+      "matches_saved": true
+    },
+    {
+      "id": "02_FixedLocal_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 217,
+      "matches_saved": true
+    },
+    {
+      "id": "02_Hatami_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 240,
+      "matches_saved": true
+    },
+    {
+      "id": "02_Hatami_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 240,
+      "matches_saved": true
+    },
+    {
+      "id": "02_Hatami_1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 250,
+      "matches_saved": true
+    },
+    {
+      "id": "02_Yang_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 239,
+      "matches_saved": true
+    },
+    {
+      "id": "02_Yang_0.01",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 239,
+      "matches_saved": true
+    },
+    {
+      "id": "02_Yang_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 288,
+      "matches_saved": true
+    },
+    {
+      "id": "03_GuardedExact_0",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 223,
+      "matches_saved": true
+    },
+    {
+      "id": "03_GuardedInterval_0",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 223,
+      "matches_saved": true
+    },
+    {
+      "id": "03_GuardedTwoInterval_0",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 223,
+      "matches_saved": true
+    },
+    {
+      "id": "03_FixedLocal_0",
+      "failed_samples": [
+        3,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02,
+        0.0
+      ],
+      "distinct_completed_updates": 208,
+      "matches_saved": true
+    },
+    {
+      "id": "03_Hatami_0",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 221,
+      "matches_saved": true
+    },
+    {
+      "id": "03_Hatami_0.1",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 221,
+      "matches_saved": true
+    },
+    {
+      "id": "03_Hatami_1",
+      "failed_samples": [
+        1,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.02
+      ],
+      "distinct_completed_updates": 231,
+      "matches_saved": true
+    },
+    {
+      "id": "03_Yang_0",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 218,
+      "matches_saved": true
+    },
+    {
+      "id": "03_Yang_0.01",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 218,
+      "matches_saved": true
+    },
+    {
+      "id": "03_Yang_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 287,
+      "matches_saved": true
+    },
+    {
+      "id": "04_GuardedExact_0",
+      "failed_samples": [
+        2,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 218,
+      "matches_saved": true
+    },
+    {
+      "id": "04_GuardedInterval_0",
+      "failed_samples": [
+        2,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 222,
+      "matches_saved": true
+    },
+    {
+      "id": "04_GuardedTwoInterval_0",
+      "failed_samples": [
+        2,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 218,
+      "matches_saved": true
+    },
+    {
+      "id": "04_FixedLocal_0",
+      "failed_samples": [
+        4,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 200,
+      "matches_saved": true
+    },
+    {
+      "id": "04_Hatami_0",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 218,
+      "matches_saved": true
+    },
+    {
+      "id": "04_Hatami_0.1",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 218,
+      "matches_saved": true
+    },
+    {
+      "id": "04_Hatami_1",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 236,
+      "matches_saved": true
+    },
+    {
+      "id": "04_Yang_0",
+      "failed_samples": [
+        2,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 218,
+      "matches_saved": true
+    },
+    {
+      "id": "04_Yang_0.01",
+      "failed_samples": [
+        2,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 218,
+      "matches_saved": true
+    },
+    {
+      "id": "04_Yang_0.1",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 262,
+      "matches_saved": true
+    },
+    {
+      "id": "05_GuardedExact_0",
+      "failed_samples": [
+        4,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 202,
+      "matches_saved": true
+    },
+    {
+      "id": "05_GuardedInterval_0",
+      "failed_samples": [
+        4,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 205,
+      "matches_saved": true
+    },
+    {
+      "id": "05_GuardedTwoInterval_0",
+      "failed_samples": [
+        4,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 200,
+      "matches_saved": true
+    },
+    {
+      "id": "05_FixedLocal_0",
+      "failed_samples": [
+        4,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 190,
+      "matches_saved": true
+    },
+    {
+      "id": "05_Hatami_0",
+      "failed_samples": [
+        5,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.03333333333333333,
+        0.02
+      ],
+      "distinct_completed_updates": 197,
+      "matches_saved": true
+    },
+    {
+      "id": "05_Hatami_0.1",
+      "failed_samples": [
+        5,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.03333333333333333,
+        0.02
+      ],
+      "distinct_completed_updates": 201,
+      "matches_saved": true
+    },
+    {
+      "id": "05_Hatami_1",
+      "failed_samples": [
+        5,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.03333333333333333,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 209,
+      "matches_saved": true
+    },
+    {
+      "id": "05_Yang_0",
+      "failed_samples": [
+        4,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 197,
+      "matches_saved": true
+    },
+    {
+      "id": "05_Yang_0.01",
+      "failed_samples": [
+        4,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 197,
+      "matches_saved": true
+    },
+    {
+      "id": "05_Yang_0.1",
+      "failed_samples": [
+        4,
+        4
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.02666666666666667
+      ],
+      "distinct_completed_updates": 255,
+      "matches_saved": true
+    },
+    {
+      "id": "06_GuardedExact_0",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 222,
+      "matches_saved": true
+    },
+    {
+      "id": "06_GuardedInterval_0",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 221,
+      "matches_saved": true
+    },
+    {
+      "id": "06_GuardedTwoInterval_0",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 222,
+      "matches_saved": true
+    },
+    {
+      "id": "06_FixedLocal_0",
+      "failed_samples": [
+        4,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 201,
+      "matches_saved": true
+    },
+    {
+      "id": "06_Hatami_0",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 222,
+      "matches_saved": true
+    },
+    {
+      "id": "06_Hatami_0.1",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 222,
+      "matches_saved": true
+    },
+    {
+      "id": "06_Hatami_1",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 241,
+      "matches_saved": true
+    },
+    {
+      "id": "06_Yang_0",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 222,
+      "matches_saved": true
+    },
+    {
+      "id": "06_Yang_0.01",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 222,
+      "matches_saved": true
+    },
+    {
+      "id": "06_Yang_0.1",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 268,
+      "matches_saved": true
+    },
+    {
+      "id": "07_GuardedExact_0",
+      "failed_samples": [
+        2,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 239,
+      "matches_saved": true
+    },
+    {
+      "id": "07_GuardedInterval_0",
+      "failed_samples": [
+        2,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 239,
+      "matches_saved": true
+    },
+    {
+      "id": "07_GuardedTwoInterval_0",
+      "failed_samples": [
+        2,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 239,
+      "matches_saved": true
+    },
+    {
+      "id": "07_FixedLocal_0",
+      "failed_samples": [
+        4,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 191,
+      "matches_saved": true
+    },
+    {
+      "id": "07_Hatami_0",
+      "failed_samples": [
+        2,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 233,
+      "matches_saved": true
+    },
+    {
+      "id": "07_Hatami_0.1",
+      "failed_samples": [
+        2,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 233,
+      "matches_saved": true
+    },
+    {
+      "id": "07_Hatami_1",
+      "failed_samples": [
+        2,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 238,
+      "matches_saved": true
+    },
+    {
+      "id": "07_Yang_0",
+      "failed_samples": [
+        2,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 236,
+      "matches_saved": true
+    },
+    {
+      "id": "07_Yang_0.01",
+      "failed_samples": [
+        2,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 236,
+      "matches_saved": true
+    },
+    {
+      "id": "07_Yang_0.1",
+      "failed_samples": [
+        2,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 264,
+      "matches_saved": true
+    },
+    {
+      "id": "08_GuardedExact_0",
+      "failed_samples": [
+        3,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 235,
+      "matches_saved": true
+    },
+    {
+      "id": "08_GuardedInterval_0",
+      "failed_samples": [
+        3,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 239,
+      "matches_saved": true
+    },
+    {
+      "id": "08_GuardedTwoInterval_0",
+      "failed_samples": [
+        3,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 235,
+      "matches_saved": true
+    },
+    {
+      "id": "08_FixedLocal_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 212,
+      "matches_saved": true
+    },
+    {
+      "id": "08_Hatami_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 237,
+      "matches_saved": true
+    },
+    {
+      "id": "08_Hatami_0.1",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 237,
+      "matches_saved": true
+    },
+    {
+      "id": "08_Hatami_1",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 244,
+      "matches_saved": true
+    },
+    {
+      "id": "08_Yang_0",
+      "failed_samples": [
+        3,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 236,
+      "matches_saved": true
+    },
+    {
+      "id": "08_Yang_0.01",
+      "failed_samples": [
+        3,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 236,
+      "matches_saved": true
+    },
+    {
+      "id": "08_Yang_0.1",
+      "failed_samples": [
+        3,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 245,
+      "matches_saved": true
+    },
+    {
+      "id": "09_GuardedExact_0",
+      "failed_samples": [
+        4,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 229,
+      "matches_saved": true
+    },
+    {
+      "id": "09_GuardedInterval_0",
+      "failed_samples": [
+        3,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02,
+        0.02
+      ],
+      "distinct_completed_updates": 231,
+      "matches_saved": true
+    },
+    {
+      "id": "09_GuardedTwoInterval_0",
+      "failed_samples": [
+        4,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 229,
+      "matches_saved": true
+    },
+    {
+      "id": "09_FixedLocal_0",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 192,
+      "matches_saved": true
+    },
+    {
+      "id": "09_Hatami_0",
+      "failed_samples": [
+        4,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 229,
+      "matches_saved": true
+    },
+    {
+      "id": "09_Hatami_0.1",
+      "failed_samples": [
+        4,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 229,
+      "matches_saved": true
+    },
+    {
+      "id": "09_Hatami_1",
+      "failed_samples": [
+        4,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.02
+      ],
+      "distinct_completed_updates": 233,
+      "matches_saved": true
+    },
+    {
+      "id": "09_Yang_0",
+      "failed_samples": [
+        4,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 231,
+      "matches_saved": true
+    },
+    {
+      "id": "09_Yang_0.01",
+      "failed_samples": [
+        4,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 231,
+      "matches_saved": true
+    },
+    {
+      "id": "09_Yang_0.1",
+      "failed_samples": [
+        4,
+        2
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.02666666666666667,
+        0.013333333333333334
+      ],
+      "distinct_completed_updates": 240,
+      "matches_saved": true
+    },
+    {
+      "id": "10_GuardedExact_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 269,
+      "matches_saved": true
+    },
+    {
+      "id": "10_GuardedInterval_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 269,
+      "matches_saved": true
+    },
+    {
+      "id": "10_GuardedTwoInterval_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 269,
+      "matches_saved": true
+    },
+    {
+      "id": "10_FixedLocal_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 212,
+      "matches_saved": true
+    },
+    {
+      "id": "10_Hatami_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 262,
+      "matches_saved": true
+    },
+    {
+      "id": "10_Hatami_0.1",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 262,
+      "matches_saved": true
+    },
+    {
+      "id": "10_Hatami_1",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 271,
+      "matches_saved": true
+    },
+    {
+      "id": "10_Yang_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 269,
+      "matches_saved": true
+    },
+    {
+      "id": "10_Yang_0.01",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 269,
+      "matches_saved": true
+    },
+    {
+      "id": "10_Yang_0.1",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 284,
+      "matches_saved": true
+    },
+    {
+      "id": "11_GuardedExact_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 264,
+      "matches_saved": true
+    },
+    {
+      "id": "11_GuardedInterval_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 260,
+      "matches_saved": true
+    },
+    {
+      "id": "11_GuardedTwoInterval_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 264,
+      "matches_saved": true
+    },
+    {
+      "id": "11_FixedLocal_0",
+      "failed_samples": [
+        2,
+        3
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.013333333333333334,
+        0.02
+      ],
+      "distinct_completed_updates": 192,
+      "matches_saved": true
+    },
+    {
+      "id": "11_Hatami_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 259,
+      "matches_saved": true
+    },
+    {
+      "id": "11_Hatami_0.1",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 259,
+      "matches_saved": true
+    },
+    {
+      "id": "11_Hatami_1",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 260,
+      "matches_saved": true
+    },
+    {
+      "id": "11_Yang_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 262,
+      "matches_saved": true
+    },
+    {
+      "id": "11_Yang_0.01",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 262,
+      "matches_saved": true
+    },
+    {
+      "id": "11_Yang_0.1",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 277,
+      "matches_saved": true
+    },
+    {
+      "id": "12_GuardedExact_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 243,
+      "matches_saved": true
+    },
+    {
+      "id": "12_GuardedInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 247,
+      "matches_saved": true
+    },
+    {
+      "id": "12_GuardedTwoInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 245,
+      "matches_saved": true
+    },
+    {
+      "id": "12_FixedLocal_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 219,
+      "matches_saved": true
+    },
+    {
+      "id": "12_Hatami_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 240,
+      "matches_saved": true
+    },
+    {
+      "id": "12_Hatami_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 240,
+      "matches_saved": true
+    },
+    {
+      "id": "12_Hatami_1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 251,
+      "matches_saved": true
+    },
+    {
+      "id": "12_Yang_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 244,
+      "matches_saved": true
+    },
+    {
+      "id": "12_Yang_0.01",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 244,
+      "matches_saved": true
+    },
+    {
+      "id": "12_Yang_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 291,
+      "matches_saved": true
+    },
+    {
+      "id": "13_GuardedExact_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 221,
+      "matches_saved": true
+    },
+    {
+      "id": "13_GuardedInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 228,
+      "matches_saved": true
+    },
+    {
+      "id": "13_GuardedTwoInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 224,
+      "matches_saved": true
+    },
+    {
+      "id": "13_FixedLocal_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 202,
+      "matches_saved": true
+    },
+    {
+      "id": "13_Hatami_0",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 216,
+      "matches_saved": true
+    },
+    {
+      "id": "13_Hatami_0.1",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 214,
+      "matches_saved": true
+    },
+    {
+      "id": "13_Hatami_1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 230,
+      "matches_saved": true
+    },
+    {
+      "id": "13_Yang_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 223,
+      "matches_saved": true
+    },
+    {
+      "id": "13_Yang_0.01",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 223,
+      "matches_saved": true
+    },
+    {
+      "id": "13_Yang_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 281,
+      "matches_saved": true
+    },
+    {
+      "id": "14_GuardedExact_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 251,
+      "matches_saved": true
+    },
+    {
+      "id": "14_GuardedInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 251,
+      "matches_saved": true
+    },
+    {
+      "id": "14_GuardedTwoInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 251,
+      "matches_saved": true
+    },
+    {
+      "id": "14_FixedLocal_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 219,
+      "matches_saved": true
+    },
+    {
+      "id": "14_Hatami_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 240,
+      "matches_saved": true
+    },
+    {
+      "id": "14_Hatami_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 240,
+      "matches_saved": true
+    },
+    {
+      "id": "14_Hatami_1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 251,
+      "matches_saved": true
+    },
+    {
+      "id": "14_Yang_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 251,
+      "matches_saved": true
+    },
+    {
+      "id": "14_Yang_0.01",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 251,
+      "matches_saved": true
+    },
+    {
+      "id": "14_Yang_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 293,
+      "matches_saved": true
+    },
+    {
+      "id": "15_GuardedExact_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 229,
+      "matches_saved": true
+    },
+    {
+      "id": "15_GuardedInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 229,
+      "matches_saved": true
+    },
+    {
+      "id": "15_GuardedTwoInterval_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 229,
+      "matches_saved": true
+    },
+    {
+      "id": "15_FixedLocal_0",
+      "failed_samples": [
+        1,
+        0
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.0
+      ],
+      "distinct_completed_updates": 202,
+      "matches_saved": true
+    },
+    {
+      "id": "15_Hatami_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 223,
+      "matches_saved": true
+    },
+    {
+      "id": "15_Hatami_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 223,
+      "matches_saved": true
+    },
+    {
+      "id": "15_Hatami_1",
+      "failed_samples": [
+        1,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 239,
+      "matches_saved": true
+    },
+    {
+      "id": "15_Yang_0",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 223,
+      "matches_saved": true
+    },
+    {
+      "id": "15_Yang_0.01",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 223,
+      "matches_saved": true
+    },
+    {
+      "id": "15_Yang_0.1",
+      "failed_samples": [
+        0,
+        1
+      ],
+      "samples_per_source": 150,
+      "task_loss": [
+        0.0,
+        0.006666666666666667
+      ],
+      "distinct_completed_updates": 289,
+      "matches_saved": true
+    }
+  ],
+  "scope": "Independent metric loop over saved successful-reassembly events, using original codec and source motion; not independent packet delivery validation."
+}

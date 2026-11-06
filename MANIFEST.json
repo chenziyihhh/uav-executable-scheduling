@@ -1,0 +1,137 @@
+[
+  {
+    "path": "docs/GITHUB_UPLOAD_CN.md",
+    "bytes": 2458,
+    "sha256": "feabfd4b0bbdb48ab45867328e4fd86ae34fb4992741ae2486b3ea5e5d1cd681"
+  },
+  {
+    "path": "figures/communication_ledgers.pdf",
+    "bytes": 47535,
+    "sha256": "5e750185582ac078a1635d081972936475fee717203873dcb327d6e5335a8421"
+  },
+  {
+    "path": "figures/figure_palette.py",
+    "bytes": 369,
+    "sha256": "7a2fe260afed7d98821f2398d15ff5a6269b98015c38dc29ee58e0bd509e7092"
+  },
+  {
+    "path": "figures/make_figures.py",
+    "bytes": 16956,
+    "sha256": "f5639477514f85c832980245f95a7d823328c08196f94e191d5d5af5228df46e"
+  },
+  {
+    "path": "figures/make_summary_figures.py",
+    "bytes": 2452,
+    "sha256": "6df3abc348178f4cf620cd9e632cb325c8956a67fb15633cc00ee5ab1a50bc83"
+  },
+  {
+    "path": "figures/mechanism_comparison.csv",
+    "bytes": 144,
+    "sha256": "935675cdfdbbe52f14e77f95fb7c1e569f93179895d69245e9d5633af9846c8b"
+  },
+  {
+    "path": "figures/operating_conditions.csv",
+    "bytes": 258,
+    "sha256": "9e6e1093daabf2673fe5684f6bdf0dd14245c7798c962ba9654b32b32b9277a8"
+  },
+  {
+    "path": "figures/operating_conditions.pdf",
+    "bytes": 48735,
+    "sha256": "1d3ba1c490e42251c09a0673ee2fd438baf66ea06d88a5378b232906850db511"
+  },
+  {
+    "path": "figures/paired_cost_frontier.csv",
+    "bytes": 12389,
+    "sha256": "c3238d57d616ad70f0d20a12fb00c2ea889cc4c8405b58b388508c11db558147"
+  },
+  {
+    "path": "figures/paired_cost_frontier.pdf",
+    "bytes": 81719,
+    "sha256": "4c847b1d289f910a5804c9036f6f1afb710672dd80aa709c5720e71ec93f3f91"
+  },
+  {
+    "path": "figures/paired_outcome_counts.csv",
+    "bytes": 248,
+    "sha256": "799ab2c45bd951248d9e64a1672b5ac879d3d2d22067b10ffba61bae73422085"
+  },
+  {
+    "path": "figures/plot_data.json",
+    "bytes": 93486,
+    "sha256": "2307dba9e4da51bf203e4083c5d80039841643780d3209af6801a91a5913f540"
+  },
+  {
+    "path": "figures/quality_profiles.pdf",
+    "bytes": 38085,
+    "sha256": "c8b9ca45a1cd2b58bbd6ca19500981395c7977afa941e7f2216b5cfc9991fe9e"
+  },
+  {
+    "path": "figures/scale_relative.pdf",
+    "bytes": 51532,
+    "sha256": "02109c9c21a4dd8fd403d9a4ea33cc0d5c654fe2fdf8e0c4ea3977059cbde073"
+  },
+  {
+    "path": "figures/system_model.pdf",
+    "bytes": 1124791,
+    "sha256": "50e0330bce465d422731f6718b53448924a92b21eb0df47b8bd61b497fe9a639"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3246,
+    "sha256": "6f66d3947cd236380187c2df592714fb55ce7ce013e8d978d2016d7d20490945"
+  },
+  {
+    "path": "reproducibility/all_method_costs.csv",
+    "bytes": 22743,
+    "sha256": "e9b138e3130b1d83e352cd22cf436dd7d025b3ba46d5a89b86310773487d384f"
+  },
+  {
+    "path": "reproducibility/audit_saved_evidence.py",
+    "bytes": 16807,
+    "sha256": "342b8dea6a8a8cda103a103ea34f51dac6a09c3e290994ec03dcb8b60172e644"
+  },
+  {
+    "path": "reproducibility/CERTIFICATE_DEPENDENCIES.md",
+    "bytes": 10081,
+    "sha256": "b020d95cbf7ac6a8e6a66472158e0c85508f466f51787505f17d88c5bf8e00f5"
+  },
+  {
+    "path": "reproducibility/certificate_dependency_audit.json",
+    "bytes": 130330,
+    "sha256": "c2f6d0f4b14343fbcc9aa12264bb2451fa7d3f74f7b98cf2aae88d3189858ed0"
+  },
+  {
+    "path": "reproducibility/certificate_inputs.json",
+    "bytes": 17642,
+    "sha256": "49e7c5fce91adb9312ddaceb55cccf1acf0fdf4ed3a8b89f2d3a77a2eeba6029"
+  },
+  {
+    "path": "reproducibility/experiment_spec.json",
+    "bytes": 55422,
+    "sha256": "09990f5267fb55588d5f56d073fc21789d871d610c1caf5a2799ca86db7d27e3"
+  },
+  {
+    "path": "reproducibility/METRIC_PROTOCOL.md",
+    "bytes": 8305,
+    "sha256": "b3d3fb7a2b3e3ad67993326c7a58089e3d7ec24ce8a57e00658b2c3373f9b665"
+  },
+  {
+    "path": "reproducibility/metric_replay_audit.json",
+    "bytes": 48720,
+    "sha256": "9edb76ff56700f92410528f34875b1a7a65fb7f4cef6d7daa239bea897fe74b7"
+  },
+  {
+    "path": "reproducibility/PACKAGE_SCOPE.json",
+    "bytes": 520,
+    "sha256": "23d4c71b4cc2d2fb573f03acd550ad9b1f2abc4b54f33ad93ccfa85b14697672"
+  },
+  {
+    "path": "reproducibility/timing_evidence.json",
+    "bytes": 15809,
+    "sha256": "cf0cd1b60000f12b3636fb5ca08331058d8e5266aa9f330b60e01ced0deb0dc9"
+  },
+  {
+    "path": "verify_package.py",
+    "bytes": 375,
+    "sha256": "767bf1a3fecc00b13f25603986c48337d2357d26709c340d0573cdedc47906c4"
+  }
+]

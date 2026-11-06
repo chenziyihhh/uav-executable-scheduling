@@ -1,0 +1,2936 @@
+{
+  "utc": "2026-10-23T07:27:57.274616+00:00",
+  "source_commit": "f1346c38c415abfc98626dd82450f49a57033603",
+  "records": [
+    "TMobile-LTE-short",
+    "TMobile-UMTS-driving",
+    "Verizon-EVDO-driving",
+    "Verizon-LTE-short"
+  ],
+  "selection": "All remaining four paired records in the pinned trace directory after excluding the four previously used records. For each use the first chronological complete32s window at offset0. If common directional horizon<32000ms, retain exclusion without replacement/cycling/scaling/performance screening. Numerical content acquired only after this freeze.",
+  "methods": [
+    [
+      "GuardedExact",
+      0.0
+    ],
+    [
+      "GuardedInterval",
+      0.0
+    ],
+    [
+      "GuardedTwoInterval",
+      0.0
+    ],
+    [
+      "FixedLocal",
+      0.0
+    ],
+    [
+      "Hatami",
+      0.0
+    ],
+    [
+      "Hatami",
+      0.1
+    ],
+    [
+      "Hatami",
+      1.0
+    ],
+    [
+      "Yang",
+      0.0
+    ],
+    [
+      "Yang",
+      0.01
+    ],
+    [
+      "Yang",
+      0.1
+    ]
+  ],
+  "budgets": [
+    1000,
+    1280
+  ],
+  "losses": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.1,
+      0.1,
+      0.1
+    ]
+  ],
+  "rounds": 3,
+  "rotation": "Rotate all ten method/penalty rows by round index; exact same full32s task each round. Round0 scientific performance; rounds1/2 timing repeats, not independent trials. No cache reuse across sessions.",
+  "task": "Unchanged nonlinear30s UAV trajectory plus2s registration,0.5m position and0.8s age,per-source loss<=.15. Existing quality enclosure reused; no model or service threshold tuning.",
+  "identity": "Final remaining-obligation guard for every remote row. Same full-horizon Hatami/Yang adapters and all frozen penalties as predecessor. FixedLocal retains source-local quality/checks and original blanket ACK deferral.",
+  "cost": "Primary session CPU includes coordinator initialization, full-horizon request planning, observer, grant/ACK guard, codec, local checks, paid-quality operations, logging and UDP IPC plus active CPU of all three endpoints. Separately report full cold-process-stack CPU including endpoint interpreter imports and spawn setup; startup is not hidden. Remove timed in-loop independent containment/truth-metric evaluation; independent post-run audits and offline trajectory/enclosure excluded. Runtime code loading remains included as conservative harness overhead, not claimed production cost. Three rotated rounds; report per-context median and median of stratum pooled round means, with all round ranges. Outer UDP transport bill separately from contract bytes. Per-event wall delays include IPC; logical-time service is not real-time execution.",
+  "decision": "Primary paired gates: both feasible, no worse loss for either source, no fewer deliveries. Report inner/outer bytes, full-stack CPU, latency and all adverse outcomes. Pareto fronts use both per-source losses, negative complete deliveries, inner bytes and full-stack CPU; outer bytes additionally reported. No post-hoc best price selection.",
+  "prospective": "Test the prior1280B/s scalar-vs-exact strata without reselecting: report all task gates, all-window mean byte/CPU tradeoffs and worst cases. New full-stack valuations are descriptive, not a guaranteed future selector. A useful byte/CPU tradeoff requires task gate and positive saving; no energy conversion.",
+  "failure": "Archive every exception/event trace, stop on scientific or integration failure. No silent retry with altered code. Repairs require preserving frozen code and explicit revision evidence; exposed traces cease being new independent confirmation for method changes.",
+  "mechanism_cases": [
+    {
+      "record": "TMobile-original",
+      "offset_ms": 0,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "TMobile-original",
+      "offset_ms": 0,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "TMobile-original",
+      "offset_ms": 0,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "TMobile-original",
+      "offset_ms": 0,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 0,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 0,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 0,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 0,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 32000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 32000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 32000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 32000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 64000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 64000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 64000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 64000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 96000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 96000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 96000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 96000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 128000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 128000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 128000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 128000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 160000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 160000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 160000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 160000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 192000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 192000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 192000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 192000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 224000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 224000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 224000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 224000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 256000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 256000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 256000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 256000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 288000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 288000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 288000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 288000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 320000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 320000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 320000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 320000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 352000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 352000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 352000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 352000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 384000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 384000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 384000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 384000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 416000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 416000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 416000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 416000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 448000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 448000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 448000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 448000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 480000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 480000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 480000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 480000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 512000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 512000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 512000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 512000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 544000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 544000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 544000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 544000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 576000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 576000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 576000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 576000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 608000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 608000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 608000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 608000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 640000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 640000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 640000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 640000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 672000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 672000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 672000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 672000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 704000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 704000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 704000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 704000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 736000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 736000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 736000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "ATT-LTE-driving",
+      "offset_ms": 736000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 0,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 0,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 0,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 0,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 32000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 32000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 32000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 32000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 64000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 64000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 64000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 64000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 96000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 96000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 96000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 96000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 128000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 128000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 128000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 128000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 160000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 160000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 160000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 160000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 192000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 192000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 192000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 192000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 224000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 224000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 224000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 224000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 256000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 256000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 256000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 256000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 288000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 288000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 288000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 288000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 320000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 320000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 320000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 320000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 352000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 352000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 352000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 352000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 384000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 384000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 384000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 384000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 416000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 416000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 416000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 416000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 448000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 448000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 448000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 448000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 480000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 480000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 480000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 480000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 512000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 512000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 512000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 512000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 544000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 544000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 544000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 544000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 576000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 576000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 576000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 576000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 608000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 608000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 608000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 608000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 640000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 640000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 640000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 640000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 672000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 672000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 672000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 672000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 704000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 704000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 704000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 704000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 736000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 736000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 736000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 736000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 768000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 768000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 768000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 768000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 800000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 800000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 800000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 800000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 832000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 832000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 832000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 832000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 864000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 864000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 864000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 864000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 896000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 896000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 896000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 896000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 928000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 928000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 928000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 928000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 960000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 960000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 960000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 960000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 992000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 992000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 992000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 992000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1024000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1024000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1024000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1024000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1056000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1056000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1056000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1056000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1088000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1088000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1088000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1088000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1120000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1120000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1120000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1120000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1152000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1152000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1152000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1152000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1184000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1184000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1184000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1184000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1216000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1216000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1216000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1216000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1248000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1248000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1248000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1248000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1280000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1280000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1280000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1280000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1312000,
+      "budget": 1000,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1312000,
+      "budget": 1000,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1312000,
+      "budget": 1280,
+      "loss": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "record": "Verizon-LTE-driving",
+      "offset_ms": 1312000,
+      "budget": 1280,
+      "loss": [
+        0.1,
+        0.1,
+        0.1
+      ]
+    }
+  ],
+  "source_files": [
+    "results/final_guard_confirmation/summary.json",
+    "results/uav_continuation/quality_00.json",
+    "results/uav_continuation/quality_25.json",
+    "results/tmc_deadline_ready/selective_wait_cost_01/selective_wait_cost_analysis.json",
+    "results/tmc_deadline_ready/kernel_capture_07/fanout_diagnosis.json"
+  ],
+  "package_scope": "Manuscript and derived figure/table inputs. Full runtime and raw logs remain in the original experiment project.",
+  "evidence_chain": {
+    "scope": "Existing recorded evidence, summarized for the TVT manuscript; no new experiment execution.",
+    "closure_source": "results/tmc_contract_closure/closure_checks.json",
+    "closure_counts": {
+      "nonempty_supports": 66061,
+      "upper_edge_supports": 1845,
+      "operator_checks": 65643,
+      "empty_images": 7193
+    },
+    "stream_count": 16,
+    "stream_updates": 64062,
+    "nonproduct_stream_updates": 410,
+    "final_source": "results/final_guard_confirmation/summary.json",
+    "scientific_runs": 160,
+    "all_task_feasible": true,
+    "exact_streams": [
+      {
+        "id": "00_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 132,
+        "successful_protected_quality_checks": 132,
+        "ack_checks": 20,
+        "ack_accepted": 20,
+        "ack_blocked": 0
+      },
+      {
+        "id": "01_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 108,
+        "successful_protected_quality_checks": 98,
+        "ack_checks": 18,
+        "ack_accepted": 18,
+        "ack_blocked": 0
+      },
+      {
+        "id": "02_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 140,
+        "successful_protected_quality_checks": 140,
+        "ack_checks": 19,
+        "ack_accepted": 19,
+        "ack_blocked": 0
+      },
+      {
+        "id": "03_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 117,
+        "successful_protected_quality_checks": 110,
+        "ack_checks": 19,
+        "ack_accepted": 19,
+        "ack_blocked": 0
+      },
+      {
+        "id": "04_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 120,
+        "successful_protected_quality_checks": 120,
+        "ack_checks": 20,
+        "ack_accepted": 20,
+        "ack_blocked": 0
+      },
+      {
+        "id": "05_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 97,
+        "successful_protected_quality_checks": 82,
+        "ack_checks": 17,
+        "ack_accepted": 17,
+        "ack_blocked": 0
+      },
+      {
+        "id": "06_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 124,
+        "successful_protected_quality_checks": 124,
+        "ack_checks": 21,
+        "ack_accepted": 21,
+        "ack_blocked": 0
+      },
+      {
+        "id": "07_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 67,
+        "successful_protected_quality_checks": 60,
+        "ack_checks": 15,
+        "ack_accepted": 15,
+        "ack_blocked": 0
+      },
+      {
+        "id": "08_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 26,
+        "successful_protected_quality_checks": 26,
+        "ack_checks": 1,
+        "ack_accepted": 1,
+        "ack_blocked": 0
+      },
+      {
+        "id": "09_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 18,
+        "successful_protected_quality_checks": 16,
+        "ack_checks": 1,
+        "ack_accepted": 1,
+        "ack_blocked": 0
+      },
+      {
+        "id": "10_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 38,
+        "successful_protected_quality_checks": 38,
+        "ack_checks": 3,
+        "ack_accepted": 3,
+        "ack_blocked": 0
+      },
+      {
+        "id": "11_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 31,
+        "successful_protected_quality_checks": 29,
+        "ack_checks": 4,
+        "ack_accepted": 4,
+        "ack_blocked": 0
+      },
+      {
+        "id": "12_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 122,
+        "successful_protected_quality_checks": 122,
+        "ack_checks": 20,
+        "ack_accepted": 20,
+        "ack_blocked": 0
+      },
+      {
+        "id": "13_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 93,
+        "successful_protected_quality_checks": 78,
+        "ack_checks": 19,
+        "ack_accepted": 19,
+        "ack_blocked": 0
+      },
+      {
+        "id": "14_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 140,
+        "successful_protected_quality_checks": 140,
+        "ack_checks": 24,
+        "ack_accepted": 24,
+        "ack_blocked": 0
+      },
+      {
+        "id": "15_GuardedExact_0",
+        "prefix_status": "PASS",
+        "protected_transmissions": 115,
+        "successful_protected_quality_checks": 98,
+        "ack_checks": 23,
+        "ack_accepted": 23,
+        "ack_blocked": 0
+      }
+    ],
+    "exact_totals": {
+      "protected_transmissions": 1488,
+      "successful_protected_quality_checks": 1413,
+      "ack_checks": 244,
+      "ack_blocked": 0
+    },
+    "rejection_scope": "The final Exact streams contain no rejected ACK guard calls. The rejection-debt-execution-readmission witness belongs to the separate mechanism diagnostic and is not counted as independent confirmation."
+  }
+}
