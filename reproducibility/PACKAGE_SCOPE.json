@@ -1,10 +1,7 @@
 {
-  "date": "2026-11-06",
-  "manuscript": "陈子怡IEEE_模板__2026_6_14_ (1).pdf",
-  "inventory_entries": 220,
-  "missing_files": [],
-  "changed_since_saved_inventory": [],
-  "evidence_file_count": 1099,
-  "evidence_project": "UAV_Resource_Certificates_Continuation/UAV_Resource_Certificates_Continuation",
-  "scope": "Saved evidence and selected dependencies, not a new experiment or independently rebuilt certificate. Other development results and external service datasets are not exhaustively bundled."
+  "scope": "Final figure inputs, all comparison outcomes, saved-result replay and selected protocol/certificate dependencies",
+  "evidence_files": 274,
+  "new_experiments_run": false,
+  "external_service_datasets_included": false,
+  "selection": "Certificate inventory, final frozen source modules, final comparison entry points, metric source records, and local import dependencies; no bulk historical tests or development directories."
 }
